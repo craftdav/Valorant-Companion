@@ -67,7 +67,7 @@
      <property name="title">
       <string>Yoru</string>
      </property>
-     <widget class="QMenu" name="menuAbyss_2">
+     <widget class="QMenu" name="menuAbyssYoru">
       <property name="title">
        <string>Abyss</string>
       </property>
@@ -75,7 +75,7 @@
       <addaction name="actionYoruAbyssMid"/>
       <addaction name="actionYoruAbyssB"/>
      </widget>
-     <widget class="QMenu" name="menuAscent_2">
+     <widget class="QMenu" name="menuAscentYoru">
       <property name="title">
        <string>Ascent</string>
       </property>
@@ -83,14 +83,14 @@
       <addaction name="actionYoruAscentMid"/>
       <addaction name="actionYoruAscentB"/>
      </widget>
-     <widget class="QMenu" name="menuBind">
+     <widget class="QMenu" name="menuBindYoru">
       <property name="title">
        <string>Bind</string>
       </property>
       <addaction name="actionYoruBindA"/>
       <addaction name="actionYoruBindB"/>
      </widget>
-     <widget class="QMenu" name="menuBreeze">
+     <widget class="QMenu" name="menuBreezeYoru">
       <property name="title">
        <string>Breeze</string>
       </property>
@@ -98,7 +98,7 @@
       <addaction name="actionYoruBreezeMid"/>
       <addaction name="actionYoruBreezeB"/>
      </widget>
-     <widget class="QMenu" name="menuFracture">
+     <widget class="QMenu" name="menuFractureYoru">
       <property name="title">
        <string>Fracture</string>
       </property>
@@ -106,7 +106,7 @@
       <addaction name="actionYoruFractureMid"/>
       <addaction name="actionYoruFractureB"/>
      </widget>
-     <widget class="QMenu" name="menuHaven">
+     <widget class="QMenu" name="menuHavenYoru">
       <property name="title">
        <string>Haven</string>
       </property>
@@ -114,7 +114,7 @@
       <addaction name="actionYoruHavenB"/>
       <addaction name="actionYoruHavenC"/>
      </widget>
-     <widget class="QMenu" name="menuIcebox">
+     <widget class="QMenu" name="menuIceboxYoru">
       <property name="title">
        <string>Icebox</string>
       </property>
@@ -122,7 +122,7 @@
       <addaction name="actionYoruIceboxMid"/>
       <addaction name="actionYoruIceboxB"/>
      </widget>
-     <widget class="QMenu" name="menuLotus">
+     <widget class="QMenu" name="menuLotusYoru">
       <property name="title">
        <string>Lotus</string>
       </property>
@@ -130,15 +130,15 @@
       <addaction name="actionYoruLotusB"/>
       <addaction name="actionYoruLotusC"/>
      </widget>
-     <widget class="QMenu" name="menuPearl">
+     <widget class="QMenu" name="menuPearlYoru">
       <property name="title">
        <string>Pearl</string>
       </property>
       <addaction name="actionYoruPearlA"/>
       <addaction name="actionYoruPearlMid"/>
-      <addaction name="actionBYoruPearlB"/>
+      <addaction name="actionYoruPearlB"/>
      </widget>
-     <widget class="QMenu" name="menuSplit">
+     <widget class="QMenu" name="menuSplitYoru">
       <property name="title">
        <string>Split</string>
       </property>
@@ -146,7 +146,7 @@
       <addaction name="actionYoruSplitMid"/>
       <addaction name="actionYoruSplitB"/>
      </widget>
-     <widget class="QMenu" name="menuSunset">
+     <widget class="QMenu" name="menuSunsetYoru">
       <property name="title">
        <string>Sunset</string>
       </property>
@@ -154,18 +154,2618 @@
       <addaction name="actionYoruSunsetMid"/>
       <addaction name="actionYoruSunsetB"/>
      </widget>
-     <addaction name="menuAbyss_2"/>
-     <addaction name="menuAscent_2"/>
-     <addaction name="menuBind"/>
-     <addaction name="menuBreeze"/>
-     <addaction name="menuFracture"/>
-     <addaction name="menuHaven"/>
-     <addaction name="menuIcebox"/>
-     <addaction name="menuLotus"/>
-     <addaction name="menuPearl"/>
-     <addaction name="menuSplit"/>
-     <addaction name="menuSunset"/>
+     <addaction name="menuAbyssYoru"/>
+     <addaction name="menuAscentYoru"/>
+     <addaction name="menuBindYoru"/>
+     <addaction name="menuBreezeYoru"/>
+     <addaction name="menuFractureYoru"/>
+     <addaction name="menuHavenYoru"/>
+     <addaction name="menuIceboxYoru"/>
+     <addaction name="menuLotusYoru"/>
+     <addaction name="menuPearlYoru"/>
+     <addaction name="menuSplitYoru"/>
+     <addaction name="menuSunsetYoru"/>
     </widget>
+    <widget class="QMenu" name="menuAstra">
+     <property name="title">
+      <string>Astra</string>
+     </property>
+     <widget class="QMenu" name="menuAbyssAstra">
+      <property name="title">
+       <string>Abyss</string>
+      </property>
+      <addaction name="actionAstraAbyssA"/>
+      <addaction name="actionAstraAbyssMid"/>
+      <addaction name="actionAstraAbyssB"/>
+     </widget>
+     <widget class="QMenu" name="menuAscentAstra">
+      <property name="title">
+       <string>Ascent</string>
+      </property>
+      <addaction name="actionAstraAscentA"/>
+      <addaction name="actionAstraAscentMid"/>
+      <addaction name="actionAstraAscentB"/>
+     </widget>
+     <widget class="QMenu" name="menuBindAstra">
+      <property name="title">
+       <string>Bind</string>
+      </property>
+      <addaction name="actionAstraBindA"/>
+      <addaction name="actionAstraBindB"/>
+     </widget>
+     <widget class="QMenu" name="menuBreezeAstra">
+      <property name="title">
+       <string>Breeze</string>
+      </property>
+      <addaction name="actionAstraBreezeA"/>
+      <addaction name="actionAstraBreezeMid"/>
+      <addaction name="actionAstraBreezeB"/>
+     </widget>
+     <widget class="QMenu" name="menuFractureAstra">
+      <property name="title">
+       <string>Fracture</string>
+      </property>
+      <addaction name="actionAstraFractureA"/>
+      <addaction name="actionAstraFractureMid"/>
+      <addaction name="actionAstraFractureB"/>
+     </widget>
+     <widget class="QMenu" name="menuHavenAstra">
+      <property name="title">
+       <string>Haven</string>
+      </property>
+      <addaction name="actionAstraHavenA"/>
+      <addaction name="actionAstraHavenB"/>
+      <addaction name="actionAstraHavenC"/>
+     </widget>
+     <widget class="QMenu" name="menuIceboxAstra">
+      <property name="title">
+       <string>Icebox</string>
+      </property>
+      <addaction name="actionAstraIceboxA"/>
+      <addaction name="actionAstraIceboxMid"/>
+      <addaction name="actionAstraIceboxB"/>
+     </widget>
+     <widget class="QMenu" name="menuLotusAstra">
+      <property name="title">
+       <string>Lotus</string>
+      </property>
+      <addaction name="actionAstraLotusA"/>
+      <addaction name="actionAstraLotusB"/>
+      <addaction name="actionAstraLotusC"/>
+     </widget>
+     <widget class="QMenu" name="menuPearlAstra">
+      <property name="title">
+       <string>Pearl</string>
+      </property>
+      <addaction name="actionAstraPearlA"/>
+      <addaction name="actionAstraPearlMid"/>
+      <addaction name="actionAstraPearlB"/>
+     </widget>
+     <widget class="QMenu" name="menuSplitAstra">
+      <property name="title">
+       <string>Split</string>
+      </property>
+      <addaction name="actionAstraSplitA"/>
+      <addaction name="actionAstraSplitMid"/>
+      <addaction name="actionAstraSplitB"/>
+     </widget>
+     <widget class="QMenu" name="menuSunsetAstra">
+      <property name="title">
+       <string>Sunset</string>
+      </property>
+      <addaction name="actionAstraSunsetA"/>
+      <addaction name="actionAstraSunsetMid"/>
+      <addaction name="actionAstraSunsetB"/>
+     </widget>
+     <addaction name="menuAbyssAstra"/>
+     <addaction name="menuAscentAstra"/>
+     <addaction name="menuBindAstra"/>
+     <addaction name="menuBreezeAstra"/>
+     <addaction name="menuFractureAstra"/>
+     <addaction name="menuHavenAstra"/>
+     <addaction name="menuIceboxAstra"/>
+     <addaction name="menuLotusAstra"/>
+     <addaction name="menuPearlAstra"/>
+     <addaction name="menuSplitAstra"/>
+     <addaction name="menuSunsetAstra"/>
+    </widget>
+    <widget class="QMenu" name="menuBreach">
+     <property name="title">
+      <string>Breach</string>
+     </property>
+     <widget class="QMenu" name="menuAbyssBreach">
+      <property name="title">
+       <string>Abyss</string>
+      </property>
+      <addaction name="actionBreachAbyssA"/>
+      <addaction name="actionBreachAbyssMid"/>
+      <addaction name="actionBreachAbyssB"/>
+     </widget>
+     <widget class="QMenu" name="menuAscentBreach">
+      <property name="title">
+       <string>Ascent</string>
+      </property>
+      <addaction name="actionBreachAscentA"/>
+      <addaction name="actionBreachAscentMid"/>
+      <addaction name="actionBreachAscentB"/>
+     </widget>
+     <widget class="QMenu" name="menuBindBreach">
+      <property name="title">
+       <string>Bind</string>
+      </property>
+      <addaction name="actionBreachBindA"/>
+      <addaction name="actionBreachBindB"/>
+     </widget>
+     <widget class="QMenu" name="menuBreezeBreach">
+      <property name="title">
+       <string>Breeze</string>
+      </property>
+      <addaction name="actionBreachBreezeA"/>
+      <addaction name="actionBreachBreezeMid"/>
+      <addaction name="actionBreachBreezeB"/>
+     </widget>
+     <widget class="QMenu" name="menuFractureBreach">
+      <property name="title">
+       <string>Fracture</string>
+      </property>
+      <addaction name="actionBreachFractureA"/>
+      <addaction name="actionBreachFractureMid"/>
+      <addaction name="actionBreachFractureB"/>
+     </widget>
+     <widget class="QMenu" name="menuHavenBreach">
+      <property name="title">
+       <string>Haven</string>
+      </property>
+      <addaction name="actionBreachHavenA"/>
+      <addaction name="actionBreachHavenB"/>
+      <addaction name="actionBreachHavenC"/>
+     </widget>
+     <widget class="QMenu" name="menuIceboxBreach">
+      <property name="title">
+       <string>Icebox</string>
+      </property>
+      <addaction name="actionBreachIceboxA"/>
+      <addaction name="actionBreachIceboxMid"/>
+      <addaction name="actionBreachIceboxB"/>
+     </widget>
+     <widget class="QMenu" name="menuLotusBreach">
+      <property name="title">
+       <string>Lotus</string>
+      </property>
+      <addaction name="actionBreachLotusA"/>
+      <addaction name="actionBreachLotusB"/>
+      <addaction name="actionBreachLotusC"/>
+     </widget>
+     <widget class="QMenu" name="menuPearlBreach">
+      <property name="title">
+       <string>Pearl</string>
+      </property>
+      <addaction name="actionBreachPearlA"/>
+      <addaction name="actionBreachPearlMid"/>
+      <addaction name="actionBreachPearlB"/>
+     </widget>
+     <widget class="QMenu" name="menuSplitBreach">
+      <property name="title">
+       <string>Split</string>
+      </property>
+      <addaction name="actionBreachSplitA"/>
+      <addaction name="actionBreachSplitMid"/>
+      <addaction name="actionBreachSplitB"/>
+     </widget>
+     <widget class="QMenu" name="menuSunsetBreach">
+      <property name="title">
+       <string>Sunset</string>
+      </property>
+      <addaction name="actionBreachSunsetA"/>
+      <addaction name="actionBreachSunsetMid"/>
+      <addaction name="actionBreachSunsetB"/>
+     </widget>
+     <addaction name="menuAbyssBreach"/>
+     <addaction name="menuAscentBreach"/>
+     <addaction name="menuBindBreach"/>
+     <addaction name="menuBreezeBreach"/>
+     <addaction name="menuFractureBreach"/>
+     <addaction name="menuHavenBreach"/>
+     <addaction name="menuIceboxBreach"/>
+     <addaction name="menuLotusBreach"/>
+     <addaction name="menuPearlBreach"/>
+     <addaction name="menuSplitBreach"/>
+     <addaction name="menuSunsetBreach"/>
+    </widget>
+    <widget class="QMenu" name="menuBrimstone">
+     <property name="title">
+      <string>Brimstone</string>
+     </property>
+     <widget class="QMenu" name="menuAbyssBrimstone">
+      <property name="title">
+       <string>Abyss</string>
+      </property>
+      <addaction name="actionBrimstoneAbyssA"/>
+      <addaction name="actionBrimstoneAbyssMid"/>
+      <addaction name="actionBrimstoneAbyssB"/>
+     </widget>
+     <widget class="QMenu" name="menuAscentBrimstone">
+      <property name="title">
+       <string>Ascent</string>
+      </property>
+      <addaction name="actionBrimstoneAscentA"/>
+      <addaction name="actionBrimstoneAscentMid"/>
+      <addaction name="actionBrimstoneAscentB"/>
+     </widget>
+     <widget class="QMenu" name="menuBindBrimstone">
+      <property name="title">
+       <string>Bind</string>
+      </property>
+      <addaction name="actionBrimstoneBindA"/>
+      <addaction name="actionBrimstoneBindB"/>
+     </widget>
+     <widget class="QMenu" name="menuBreezeBrimstone">
+      <property name="title">
+       <string>Breeze</string>
+      </property>
+      <addaction name="actionBrimstoneBreezeA"/>
+      <addaction name="actionBrimstoneBreezeMid"/>
+      <addaction name="actionBrimstoneBreezeB"/>
+     </widget>
+     <widget class="QMenu" name="menuFractureBrimstone">
+      <property name="title">
+       <string>Fracture</string>
+      </property>
+      <addaction name="actionBrimstoneFractureA"/>
+      <addaction name="actionBrimstoneFractureMid"/>
+      <addaction name="actionBrimstoneFractureB"/>
+     </widget>
+     <widget class="QMenu" name="menuHavenBrimstone">
+      <property name="title">
+       <string>Haven</string>
+      </property>
+      <addaction name="actionBrimstoneHavenA"/>
+      <addaction name="actionBrimstoneHavenB"/>
+      <addaction name="actionBrimstoneHavenC"/>
+     </widget>
+     <widget class="QMenu" name="menuIceboxBrimstone">
+      <property name="title">
+       <string>Icebox</string>
+      </property>
+      <addaction name="actionBrimstoneIceboxA"/>
+      <addaction name="actionBrimstoneIceboxMid"/>
+      <addaction name="actionBrimstoneIceboxB"/>
+     </widget>
+     <widget class="QMenu" name="menuLotusBrimstone">
+      <property name="title">
+       <string>Lotus</string>
+      </property>
+      <addaction name="actionBrimstoneLotusA"/>
+      <addaction name="actionBrimstoneLotusB"/>
+      <addaction name="actionBrimstoneLotusC"/>
+     </widget>
+     <widget class="QMenu" name="menuPearlBrimstone">
+      <property name="title">
+       <string>Pearl</string>
+      </property>
+      <addaction name="actionBrimstonePearlA"/>
+      <addaction name="actionBrimstonePearlMid"/>
+      <addaction name="actionBrimstonePearlB"/>
+     </widget>
+     <widget class="QMenu" name="menuSplitBrimstone">
+      <property name="title">
+       <string>Split</string>
+      </property>
+      <addaction name="actionBrimstoneSplitA"/>
+      <addaction name="actionBrimstoneSplitMid"/>
+      <addaction name="actionBrimstoneSplitB"/>
+     </widget>
+     <widget class="QMenu" name="menuSunsetBrimstone">
+      <property name="title">
+       <string>Sunset</string>
+      </property>
+      <addaction name="actionBrimstoneSunsetA"/>
+      <addaction name="actionBrimstoneSunsetMid"/>
+      <addaction name="actionBrimstoneSunsetB"/>
+     </widget>
+     <addaction name="menuAbyssBrimstone"/>
+     <addaction name="menuAscentBrimstone"/>
+     <addaction name="menuBindBrimstone"/>
+     <addaction name="menuBreezeBrimstone"/>
+     <addaction name="menuFractureBrimstone"/>
+     <addaction name="menuHavenBrimstone"/>
+     <addaction name="menuIceboxBrimstone"/>
+     <addaction name="menuLotusBrimstone"/>
+     <addaction name="menuPearlBrimstone"/>
+     <addaction name="menuSplitBrimstone"/>
+     <addaction name="menuSunsetBrimstone"/>
+    </widget>
+    <widget class="QMenu" name="menuChamber">
+     <property name="title">
+      <string>Chamber</string>
+     </property>
+     <widget class="QMenu" name="menuAbyssChamber">
+      <property name="title">
+       <string>Abyss</string>
+      </property>
+      <addaction name="actionChamberAbyssA"/>
+      <addaction name="actionChamberAbyssMid"/>
+      <addaction name="actionChamberAbyssB"/>
+     </widget>
+     <widget class="QMenu" name="menuAscentChamber">
+      <property name="title">
+       <string>Ascent</string>
+      </property>
+      <addaction name="actionChamberAscentA"/>
+      <addaction name="actionChamberAscentMid"/>
+      <addaction name="actionChamberAscentB"/>
+     </widget>
+     <widget class="QMenu" name="menuBindChamber">
+      <property name="title">
+       <string>Bind</string>
+      </property>
+      <addaction name="actionChamberBindA"/>
+      <addaction name="actionChamberBindB"/>
+     </widget>
+     <widget class="QMenu" name="menuBreezeChamber">
+      <property name="title">
+       <string>Breeze</string>
+      </property>
+      <addaction name="actionChamberBreezeA"/>
+      <addaction name="actionChamberBreezeMid"/>
+      <addaction name="actionChamberBreezeB"/>
+     </widget>
+     <widget class="QMenu" name="menuFractureChamber">
+      <property name="title">
+       <string>Fracture</string>
+      </property>
+      <addaction name="actionChamberFractureA"/>
+      <addaction name="actionChamberFractureMid"/>
+      <addaction name="actionChamberFractureB"/>
+     </widget>
+     <widget class="QMenu" name="menuHavenChamber">
+      <property name="title">
+       <string>Haven</string>
+      </property>
+      <addaction name="actionChamberHavenA"/>
+      <addaction name="actionChamberHavenB"/>
+      <addaction name="actionChamberHavenC"/>
+     </widget>
+     <widget class="QMenu" name="menuIceboxChamber">
+      <property name="title">
+       <string>Icebox</string>
+      </property>
+      <addaction name="actionChamberIceboxA"/>
+      <addaction name="actionChamberIceboxMid"/>
+      <addaction name="actionChamberIceboxB"/>
+     </widget>
+     <widget class="QMenu" name="menuLotusChamber">
+      <property name="title">
+       <string>Lotus</string>
+      </property>
+      <addaction name="actionChamberLotusA"/>
+      <addaction name="actionChamberLotusB"/>
+      <addaction name="actionChamberLotusC"/>
+     </widget>
+     <widget class="QMenu" name="menuPearlChamber">
+      <property name="title">
+       <string>Pearl</string>
+      </property>
+      <addaction name="actionChamberPearlA"/>
+      <addaction name="actionChamberPearlMid"/>
+      <addaction name="actionChamberPearlB"/>
+     </widget>
+     <widget class="QMenu" name="menuSplitChamber">
+      <property name="title">
+       <string>Split</string>
+      </property>
+      <addaction name="actionChamberSplitA"/>
+      <addaction name="actionChamberSplitMid"/>
+      <addaction name="actionChamberSplitB"/>
+     </widget>
+     <widget class="QMenu" name="menuSunsetChamber">
+      <property name="title">
+       <string>Sunset</string>
+      </property>
+      <addaction name="actionChamberSunsetA"/>
+      <addaction name="actionChamberSunsetMid"/>
+      <addaction name="actionChamberSunsetB"/>
+     </widget>
+     <addaction name="menuAbyssChamber"/>
+     <addaction name="menuAscentChamber"/>
+     <addaction name="menuBindChamber"/>
+     <addaction name="menuBreezeChamber"/>
+     <addaction name="menuFractureChamber"/>
+     <addaction name="menuHavenChamber"/>
+     <addaction name="menuIceboxChamber"/>
+     <addaction name="menuLotusChamber"/>
+     <addaction name="menuPearlChamber"/>
+     <addaction name="menuSplitChamber"/>
+     <addaction name="menuSunsetChamber"/>
+    </widget>
+    <widget class="QMenu" name="menuClove">
+     <property name="title">
+      <string>Clove</string>
+     </property>
+     <widget class="QMenu" name="menuAbyssClove">
+      <property name="title">
+       <string>Abyss</string>
+      </property>
+      <addaction name="actionCloveAbyssA"/>
+      <addaction name="actionCloveAbyssMid"/>
+      <addaction name="actionCloveAbyssB"/>
+     </widget>
+     <widget class="QMenu" name="menuAscentClove">
+      <property name="title">
+       <string>Ascent</string>
+      </property>
+      <addaction name="actionCloveAscentA"/>
+      <addaction name="actionCloveAscentMid"/>
+      <addaction name="actionCloveAscentB"/>
+     </widget>
+     <widget class="QMenu" name="menuBindClove">
+      <property name="title">
+       <string>Bind</string>
+      </property>
+      <addaction name="actionCloveBindA"/>
+      <addaction name="actionCloveBindB"/>
+     </widget>
+     <widget class="QMenu" name="menuBreezeClove">
+      <property name="title">
+       <string>Breeze</string>
+      </property>
+      <addaction name="actionCloveBreezeA"/>
+      <addaction name="actionCloveBreezeMid"/>
+      <addaction name="actionCloveBreezeB"/>
+     </widget>
+     <widget class="QMenu" name="menuFractureClove">
+      <property name="title">
+       <string>Fracture</string>
+      </property>
+      <addaction name="actionCloveFractureA"/>
+      <addaction name="actionCloveFractureMid"/>
+      <addaction name="actionCloveFractureB"/>
+     </widget>
+     <widget class="QMenu" name="menuHavenClove">
+      <property name="title">
+       <string>Haven</string>
+      </property>
+      <addaction name="actionCloveHavenA"/>
+      <addaction name="actionCloveHavenB"/>
+      <addaction name="actionCloveHavenC"/>
+     </widget>
+     <widget class="QMenu" name="menuIceboxClove">
+      <property name="title">
+       <string>Icebox</string>
+      </property>
+      <addaction name="actionCloveIceboxA"/>
+      <addaction name="actionCloveIceboxMid"/>
+      <addaction name="actionCloveIceboxB"/>
+     </widget>
+     <widget class="QMenu" name="menuLotusClove">
+      <property name="title">
+       <string>Lotus</string>
+      </property>
+      <addaction name="actionCloveLotusA"/>
+      <addaction name="actionCloveLotusB"/>
+      <addaction name="actionCloveLotusC"/>
+     </widget>
+     <widget class="QMenu" name="menuPearlClove">
+      <property name="title">
+       <string>Pearl</string>
+      </property>
+      <addaction name="actionClovePearlA"/>
+      <addaction name="actionClovePearlMid"/>
+      <addaction name="actionClovePearlB"/>
+     </widget>
+     <widget class="QMenu" name="menuSplitClove">
+      <property name="title">
+       <string>Split</string>
+      </property>
+      <addaction name="actionCloveSplitA"/>
+      <addaction name="actionCloveSplitMid"/>
+      <addaction name="actionCloveSplitB"/>
+     </widget>
+     <widget class="QMenu" name="menuSunsetClove">
+      <property name="title">
+       <string>Sunset</string>
+      </property>
+      <addaction name="actionCloveSunsetA"/>
+      <addaction name="actionCloveSunsetMid"/>
+      <addaction name="actionCloveSunsetB"/>
+     </widget>
+     <addaction name="menuAbyssClove"/>
+     <addaction name="menuAscentClove"/>
+     <addaction name="menuBindClove"/>
+     <addaction name="menuBreezeClove"/>
+     <addaction name="menuFractureClove"/>
+     <addaction name="menuHavenClove"/>
+     <addaction name="menuIceboxClove"/>
+     <addaction name="menuLotusClove"/>
+     <addaction name="menuPearlClove"/>
+     <addaction name="menuSplitClove"/>
+     <addaction name="menuSunsetClove"/>
+    </widget>
+    <widget class="QMenu" name="menuCypher">
+     <property name="title">
+      <string>Cypher</string>
+     </property>
+     <widget class="QMenu" name="menuAbyssCypher">
+      <property name="title">
+       <string>Abyss</string>
+      </property>
+      <addaction name="actionCypherAbyssA"/>
+      <addaction name="actionCypherAbyssMid"/>
+      <addaction name="actionCypherAbyssB"/>
+     </widget>
+     <widget class="QMenu" name="menuAscentCypher">
+      <property name="title">
+       <string>Ascent</string>
+      </property>
+      <addaction name="actionCypherAscentA"/>
+      <addaction name="actionCypherAscentMid"/>
+      <addaction name="actionCypherAscentB"/>
+     </widget>
+     <widget class="QMenu" name="menuBindCypher">
+      <property name="title">
+       <string>Bind</string>
+      </property>
+      <addaction name="actionCypherBindA"/>
+      <addaction name="actionCypherBindB"/>
+     </widget>
+     <widget class="QMenu" name="menuBreezeCypher">
+      <property name="title">
+       <string>Breeze</string>
+      </property>
+      <addaction name="actionCypherBreezeA"/>
+      <addaction name="actionCypherBreezeMid"/>
+      <addaction name="actionCypherBreezeB"/>
+     </widget>
+     <widget class="QMenu" name="menuFractureCypher">
+      <property name="title">
+       <string>Fracture</string>
+      </property>
+      <addaction name="actionCypherFractureA"/>
+      <addaction name="actionCypherFractureMid"/>
+      <addaction name="actionCypherFractureB"/>
+     </widget>
+     <widget class="QMenu" name="menuHavenCypher">
+      <property name="title">
+       <string>Haven</string>
+      </property>
+      <addaction name="actionCypherHavenA"/>
+      <addaction name="actionCypherHavenB"/>
+      <addaction name="actionCypherHavenC"/>
+     </widget>
+     <widget class="QMenu" name="menuIceboxCypher">
+      <property name="title">
+       <string>Icebox</string>
+      </property>
+      <addaction name="actionCypherIceboxA"/>
+      <addaction name="actionCypherIceboxMid"/>
+      <addaction name="actionCypherIceboxB"/>
+     </widget>
+     <widget class="QMenu" name="menuLotusCypher">
+      <property name="title">
+       <string>Lotus</string>
+      </property>
+      <addaction name="actionCypherLotusA"/>
+      <addaction name="actionCypherLotusB"/>
+      <addaction name="actionCypherLotusC"/>
+     </widget>
+     <widget class="QMenu" name="menuPearlCypher">
+      <property name="title">
+       <string>Pearl</string>
+      </property>
+      <addaction name="actionCypherPearlA"/>
+      <addaction name="actionCypherPearlMid"/>
+      <addaction name="actionCypherPearlB"/>
+     </widget>
+     <widget class="QMenu" name="menuSplitCypher">
+      <property name="title">
+       <string>Split</string>
+      </property>
+      <addaction name="actionCypherSplitA"/>
+      <addaction name="actionCypherSplitMid"/>
+      <addaction name="actionCypherSplitB"/>
+     </widget>
+     <widget class="QMenu" name="menuSunsetCypher">
+      <property name="title">
+       <string>Sunset</string>
+      </property>
+      <addaction name="actionCypherSunsetA"/>
+      <addaction name="actionCypherSunsetMid"/>
+      <addaction name="actionCypherSunsetB"/>
+     </widget>
+     <addaction name="menuAbyssCypher"/>
+     <addaction name="menuAscentCypher"/>
+     <addaction name="menuBindCypher"/>
+     <addaction name="menuBreezeCypher"/>
+     <addaction name="menuFractureCypher"/>
+     <addaction name="menuHavenCypher"/>
+     <addaction name="menuIceboxCypher"/>
+     <addaction name="menuLotusCypher"/>
+     <addaction name="menuPearlCypher"/>
+     <addaction name="menuSplitCypher"/>
+     <addaction name="menuSunsetCypher"/>
+    </widget>
+    <widget class="QMenu" name="menuDeadlock">
+     <property name="title">
+      <string>Deadlock</string>
+     </property>
+     <widget class="QMenu" name="menuAbyssDeadlock">
+      <property name="title">
+       <string>Abyss</string>
+      </property>
+      <addaction name="actionDeadlockAbyssA"/>
+      <addaction name="actionDeadlockAbyssMid"/>
+      <addaction name="actionDeadlockAbyssB"/>
+     </widget>
+     <widget class="QMenu" name="menuAscentDeadlock">
+      <property name="title">
+       <string>Ascent</string>
+      </property>
+      <addaction name="actionDeadlockAscentA"/>
+      <addaction name="actionDeadlockAscentMid"/>
+      <addaction name="actionDeadlockAscentB"/>
+     </widget>
+     <widget class="QMenu" name="menuBindDeadlock">
+      <property name="title">
+       <string>Bind</string>
+      </property>
+      <addaction name="actionDeadlockBindA"/>
+      <addaction name="actionDeadlockBindB"/>
+     </widget>
+     <widget class="QMenu" name="menuBreezeDeadlock">
+      <property name="title">
+       <string>Breeze</string>
+      </property>
+      <addaction name="actionDeadlockBreezeA"/>
+      <addaction name="actionDeadlockBreezeMid"/>
+      <addaction name="actionDeadlockBreezeB"/>
+     </widget>
+     <widget class="QMenu" name="menuFractureDeadlock">
+      <property name="title">
+       <string>Fracture</string>
+      </property>
+      <addaction name="actionDeadlockFractureA"/>
+      <addaction name="actionDeadlockFractureMid"/>
+      <addaction name="actionDeadlockFractureB"/>
+     </widget>
+     <widget class="QMenu" name="menuHavenDeadlock">
+      <property name="title">
+       <string>Haven</string>
+      </property>
+      <addaction name="actionDeadlockHavenA"/>
+      <addaction name="actionDeadlockHavenB"/>
+      <addaction name="actionDeadlockHavenC"/>
+     </widget>
+     <widget class="QMenu" name="menuIceboxDeadlock">
+      <property name="title">
+       <string>Icebox</string>
+      </property>
+      <addaction name="actionDeadlockIceboxA"/>
+      <addaction name="actionDeadlockIceboxMid"/>
+      <addaction name="actionDeadlockIceboxB"/>
+     </widget>
+     <widget class="QMenu" name="menuLotusDeadlock">
+      <property name="title">
+       <string>Lotus</string>
+      </property>
+      <addaction name="actionDeadlockLotusA"/>
+      <addaction name="actionDeadlockLotusB"/>
+      <addaction name="actionDeadlockLotusC"/>
+     </widget>
+     <widget class="QMenu" name="menuPearlDeadlock">
+      <property name="title">
+       <string>Pearl</string>
+      </property>
+      <addaction name="actionDeadlockPearlA"/>
+      <addaction name="actionDeadlockPearlMid"/>
+      <addaction name="actionDeadlockPearlB"/>
+     </widget>
+     <widget class="QMenu" name="menuSplitDeadlock">
+      <property name="title">
+       <string>Split</string>
+      </property>
+      <addaction name="actionDeadlockSplitA"/>
+      <addaction name="actionDeadlockSplitMid"/>
+      <addaction name="actionDeadlockSplitB"/>
+     </widget>
+     <widget class="QMenu" name="menuSunsetDeadlock">
+      <property name="title">
+       <string>Sunset</string>
+      </property>
+      <addaction name="actionDeadlockSunsetA"/>
+      <addaction name="actionDeadlockSunsetMid"/>
+      <addaction name="actionDeadlockSunsetB"/>
+     </widget>
+     <addaction name="menuAbyssDeadlock"/>
+     <addaction name="menuAscentDeadlock"/>
+     <addaction name="menuBindDeadlock"/>
+     <addaction name="menuBreezeDeadlock"/>
+     <addaction name="menuFractureDeadlock"/>
+     <addaction name="menuHavenDeadlock"/>
+     <addaction name="menuIceboxDeadlock"/>
+     <addaction name="menuLotusDeadlock"/>
+     <addaction name="menuPearlDeadlock"/>
+     <addaction name="menuSplitDeadlock"/>
+     <addaction name="menuSunsetDeadlock"/>
+    </widget>
+    <widget class="QMenu" name="menuFade">
+     <property name="title">
+      <string>Fade</string>
+     </property>
+     <widget class="QMenu" name="menuAbyssFade">
+      <property name="title">
+       <string>Abyss</string>
+      </property>
+      <addaction name="actionFadeAbyssA"/>
+      <addaction name="actionFadeAbyssMid"/>
+      <addaction name="actionFadeAbyssB"/>
+     </widget>
+     <widget class="QMenu" name="menuAscentFade">
+      <property name="title">
+       <string>Ascent</string>
+      </property>
+      <addaction name="actionFadeAscentA"/>
+      <addaction name="actionFadeAscentMid"/>
+      <addaction name="actionFadeAscentB"/>
+     </widget>
+     <widget class="QMenu" name="menuBindFade">
+      <property name="title">
+       <string>Bind</string>
+      </property>
+      <addaction name="actionFadeBindA"/>
+      <addaction name="actionFadeBindB"/>
+     </widget>
+     <widget class="QMenu" name="menuBreezeFade">
+      <property name="title">
+       <string>Breeze</string>
+      </property>
+      <addaction name="actionFadeBreezeA"/>
+      <addaction name="actionFadeBreezeMid"/>
+      <addaction name="actionFadeBreezeB"/>
+     </widget>
+     <widget class="QMenu" name="menuFractureFade">
+      <property name="title">
+       <string>Fracture</string>
+      </property>
+      <addaction name="actionFadeFractureA"/>
+      <addaction name="actionFadeFractureMid"/>
+      <addaction name="actionFadeFractureB"/>
+     </widget>
+     <widget class="QMenu" name="menuHavenFade">
+      <property name="title">
+       <string>Haven</string>
+      </property>
+      <addaction name="actionFadeHavenA"/>
+      <addaction name="actionFadeHavenB"/>
+      <addaction name="actionFadeHavenC"/>
+     </widget>
+     <widget class="QMenu" name="menuIceboxFade">
+      <property name="title">
+       <string>Icebox</string>
+      </property>
+      <addaction name="actionFadeIceboxA"/>
+      <addaction name="actionFadeIceboxMid"/>
+      <addaction name="actionFadeIceboxB"/>
+     </widget>
+     <widget class="QMenu" name="menuLotusFade">
+      <property name="title">
+       <string>Lotus</string>
+      </property>
+      <addaction name="actionFadeLotusA"/>
+      <addaction name="actionFadeLotusB"/>
+      <addaction name="actionFadeLotusC"/>
+     </widget>
+     <widget class="QMenu" name="menuPearlFade">
+      <property name="title">
+       <string>Pearl</string>
+      </property>
+      <addaction name="actionFadePearlA"/>
+      <addaction name="actionFadePearlMid"/>
+      <addaction name="actionFadePearlB"/>
+     </widget>
+     <widget class="QMenu" name="menuSplitFade">
+      <property name="title">
+       <string>Split</string>
+      </property>
+      <addaction name="actionFadeSplitA"/>
+      <addaction name="actionFadeSplitMid"/>
+      <addaction name="actionFadeSplitB"/>
+     </widget>
+     <widget class="QMenu" name="menuSunsetFade">
+      <property name="title">
+       <string>Sunset</string>
+      </property>
+      <addaction name="actionFadeSunsetA"/>
+      <addaction name="actionFadeSunsetMid"/>
+      <addaction name="actionFadeSunsetB"/>
+     </widget>
+     <addaction name="menuAbyssFade"/>
+     <addaction name="menuAscentFade"/>
+     <addaction name="menuBindFade"/>
+     <addaction name="menuBreezeFade"/>
+     <addaction name="menuFractureFade"/>
+     <addaction name="menuHavenFade"/>
+     <addaction name="menuIceboxFade"/>
+     <addaction name="menuLotusFade"/>
+     <addaction name="menuPearlFade"/>
+     <addaction name="menuSplitFade"/>
+     <addaction name="menuSunsetFade"/>
+    </widget>
+    <widget class="QMenu" name="menuGekko">
+     <property name="title">
+      <string>Gekko</string>
+     </property>
+     <widget class="QMenu" name="menuAbyssGekko">
+      <property name="title">
+       <string>Abyss</string>
+      </property>
+      <addaction name="actionGekkoAbyssA"/>
+      <addaction name="actionGekkoAbyssMid"/>
+      <addaction name="actionGekkoAbyssB"/>
+     </widget>
+     <widget class="QMenu" name="menuAscentGekko">
+      <property name="title">
+       <string>Ascent</string>
+      </property>
+      <addaction name="actionGekkoAscentA"/>
+      <addaction name="actionGekkoAscentMid"/>
+      <addaction name="actionGekkoAscentB"/>
+     </widget>
+     <widget class="QMenu" name="menuBindGekko">
+      <property name="title">
+       <string>Bind</string>
+      </property>
+      <addaction name="actionGekkoBindA"/>
+      <addaction name="actionGekkoBindB"/>
+     </widget>
+     <widget class="QMenu" name="menuBreezeGekko">
+      <property name="title">
+       <string>Breeze</string>
+      </property>
+      <addaction name="actionGekkoBreezeA"/>
+      <addaction name="actionGekkoBreezeMid"/>
+      <addaction name="actionGekkoBreezeB"/>
+     </widget>
+     <widget class="QMenu" name="menuFractureGekko">
+      <property name="title">
+       <string>Fracture</string>
+      </property>
+      <addaction name="actionGekkoFractureA"/>
+      <addaction name="actionGekkoFractureMid"/>
+      <addaction name="actionGekkoFractureB"/>
+     </widget>
+     <widget class="QMenu" name="menuHavenGekko">
+      <property name="title">
+       <string>Haven</string>
+      </property>
+      <addaction name="actionGekkoHavenA"/>
+      <addaction name="actionGekkoHavenB"/>
+      <addaction name="actionGekkoHavenC"/>
+     </widget>
+     <widget class="QMenu" name="menuIceboxGekko">
+      <property name="title">
+       <string>Icebox</string>
+      </property>
+      <addaction name="actionGekkoIceboxA"/>
+      <addaction name="actionGekkoIceboxMid"/>
+      <addaction name="actionGekkoIceboxB"/>
+     </widget>
+     <widget class="QMenu" name="menuLotusGekko">
+      <property name="title">
+       <string>Lotus</string>
+      </property>
+      <addaction name="actionGekkoLotusA"/>
+      <addaction name="actionGekkoLotusB"/>
+      <addaction name="actionGekkoLotusC"/>
+     </widget>
+     <widget class="QMenu" name="menuPearlGekko">
+      <property name="title">
+       <string>Pearl</string>
+      </property>
+      <addaction name="actionGekkoPearlA"/>
+      <addaction name="actionGekkoPearlMid"/>
+      <addaction name="actionGekkoPearlB"/>
+     </widget>
+     <widget class="QMenu" name="menuSplitGekko">
+      <property name="title">
+       <string>Split</string>
+      </property>
+      <addaction name="actionGekkoSplitA"/>
+      <addaction name="actionGekkoSplitMid"/>
+      <addaction name="actionGekkoSplitB"/>
+     </widget>
+     <widget class="QMenu" name="menuSunsetGekko">
+      <property name="title">
+       <string>Sunset</string>
+      </property>
+      <addaction name="actionGekkoSunsetA"/>
+      <addaction name="actionGekkoSunsetMid"/>
+      <addaction name="actionGekkoSunsetB"/>
+     </widget>
+     <addaction name="menuAbyssGekko"/>
+     <addaction name="menuAscentGekko"/>
+     <addaction name="menuBindGekko"/>
+     <addaction name="menuBreezeGekko"/>
+     <addaction name="menuFractureGekko"/>
+     <addaction name="menuHavenGekko"/>
+     <addaction name="menuIceboxGekko"/>
+     <addaction name="menuLotusGekko"/>
+     <addaction name="menuPearlGekko"/>
+     <addaction name="menuSplitGekko"/>
+     <addaction name="menuSunsetGekko"/>
+    </widget>
+    <widget class="QMenu" name="menuHarbor">
+     <property name="title">
+      <string>Harbor</string>
+     </property>
+     <widget class="QMenu" name="menuAbyssHarbor">
+      <property name="title">
+       <string>Abyss</string>
+      </property>
+      <addaction name="actionHarborAbyssA"/>
+      <addaction name="actionHarborAbyssMid"/>
+      <addaction name="actionHarborAbyssB"/>
+     </widget>
+     <widget class="QMenu" name="menuAscentHarbor">
+      <property name="title">
+       <string>Ascent</string>
+      </property>
+      <addaction name="actionHarborAscentA"/>
+      <addaction name="actionHarborAscentMid"/>
+      <addaction name="actionHarborAscentB"/>
+     </widget>
+     <widget class="QMenu" name="menuBindHarbor">
+      <property name="title">
+       <string>Bind</string>
+      </property>
+      <addaction name="actionHarborBindA"/>
+      <addaction name="actionHarborBindB"/>
+     </widget>
+     <widget class="QMenu" name="menuBreezeHarbor">
+      <property name="title">
+       <string>Breeze</string>
+      </property>
+      <addaction name="actionHarborBreezeA"/>
+      <addaction name="actionHarborBreezeMid"/>
+      <addaction name="actionHarborBreezeB"/>
+     </widget>
+     <widget class="QMenu" name="menuFractureHarbor">
+      <property name="title">
+       <string>Fracture</string>
+      </property>
+      <addaction name="actionHarborFractureA"/>
+      <addaction name="actionHarborFractureMid"/>
+      <addaction name="actionHarborFractureB"/>
+     </widget>
+     <widget class="QMenu" name="menuHavenHarbor">
+      <property name="title">
+       <string>Haven</string>
+      </property>
+      <addaction name="actionHarborHavenA"/>
+      <addaction name="actionHarborHavenB"/>
+      <addaction name="actionHarborHavenC"/>
+     </widget>
+     <widget class="QMenu" name="menuIceboxHarbor">
+      <property name="title">
+       <string>Icebox</string>
+      </property>
+      <addaction name="actionHarborIceboxA"/>
+      <addaction name="actionHarborIceboxMid"/>
+      <addaction name="actionHarborIceboxB"/>
+     </widget>
+     <widget class="QMenu" name="menuLotusHarbor">
+      <property name="title">
+       <string>Lotus</string>
+      </property>
+      <addaction name="actionHarborLotusA"/>
+      <addaction name="actionHarborLotusB"/>
+      <addaction name="actionHarborLotusC"/>
+     </widget>
+     <widget class="QMenu" name="menuPearlHarbor">
+      <property name="title">
+       <string>Pearl</string>
+      </property>
+      <addaction name="actionHarborPearlA"/>
+      <addaction name="actionHarborPearlMid"/>
+      <addaction name="actionHarborPearlB"/>
+     </widget>
+     <widget class="QMenu" name="menuSplitHarbor">
+      <property name="title">
+       <string>Split</string>
+      </property>
+      <addaction name="actionHarborSplitA"/>
+      <addaction name="actionHarborSplitMid"/>
+      <addaction name="actionHarborSplitB"/>
+     </widget>
+     <widget class="QMenu" name="menuSunsetHarbor">
+      <property name="title">
+       <string>Sunset</string>
+      </property>
+      <addaction name="actionHarborSunsetA"/>
+      <addaction name="actionHarborSunsetMid"/>
+      <addaction name="actionHarborSunsetB"/>
+     </widget>
+     <addaction name="menuAbyssHarbor"/>
+     <addaction name="menuAscentHarbor"/>
+     <addaction name="menuBindHarbor"/>
+     <addaction name="menuBreezeHarbor"/>
+     <addaction name="menuFractureHarbor"/>
+     <addaction name="menuHavenHarbor"/>
+     <addaction name="menuIceboxHarbor"/>
+     <addaction name="menuLotusHarbor"/>
+     <addaction name="menuPearlHarbor"/>
+     <addaction name="menuSplitHarbor"/>
+     <addaction name="menuSunsetHarbor"/>
+    </widget>
+    <widget class="QMenu" name="menuIso">
+     <property name="title">
+      <string>Iso</string>
+     </property>
+     <widget class="QMenu" name="menuAbyssIso">
+      <property name="title">
+       <string>Abyss</string>
+      </property>
+      <addaction name="actionIsoAbyssA"/>
+      <addaction name="actionIsoAbyssMid"/>
+      <addaction name="actionIsoAbyssB"/>
+     </widget>
+     <widget class="QMenu" name="menuAscentIso">
+      <property name="title">
+       <string>Ascent</string>
+      </property>
+      <addaction name="actionIsoAscentA"/>
+      <addaction name="actionIsoAscentMid"/>
+      <addaction name="actionIsoAscentB"/>
+     </widget>
+     <widget class="QMenu" name="menuBindIso">
+      <property name="title">
+       <string>Bind</string>
+      </property>
+      <addaction name="actionIsoBindA"/>
+      <addaction name="actionIsoBindB"/>
+     </widget>
+     <widget class="QMenu" name="menuBreezeIso">
+      <property name="title">
+       <string>Breeze</string>
+      </property>
+      <addaction name="actionIsoBreezeA"/>
+      <addaction name="actionIsoBreezeMid"/>
+      <addaction name="actionIsoBreezeB"/>
+     </widget>
+     <widget class="QMenu" name="menuFractureIso">
+      <property name="title">
+       <string>Fracture</string>
+      </property>
+      <addaction name="actionIsoFractureA"/>
+      <addaction name="actionIsoFractureMid"/>
+      <addaction name="actionIsoFractureB"/>
+     </widget>
+     <widget class="QMenu" name="menuHavenIso">
+      <property name="title">
+       <string>Haven</string>
+      </property>
+      <addaction name="actionIsoHavenA"/>
+      <addaction name="actionIsoHavenB"/>
+      <addaction name="actionIsoHavenC"/>
+     </widget>
+     <widget class="QMenu" name="menuIceboxIso">
+      <property name="title">
+       <string>Icebox</string>
+      </property>
+      <addaction name="actionIsoIceboxA"/>
+      <addaction name="actionIsoIceboxMid"/>
+      <addaction name="actionIsoIceboxB"/>
+     </widget>
+     <widget class="QMenu" name="menuLotusIso">
+      <property name="title">
+       <string>Lotus</string>
+      </property>
+      <addaction name="actionIsoLotusA"/>
+      <addaction name="actionIsoLotusB"/>
+      <addaction name="actionIsoLotusC"/>
+     </widget>
+     <widget class="QMenu" name="menuPearlIso">
+      <property name="title">
+       <string>Pearl</string>
+      </property>
+      <addaction name="actionIsoPearlA"/>
+      <addaction name="actionIsoPearlMid"/>
+      <addaction name="actionIsoPearlB"/>
+     </widget>
+     <widget class="QMenu" name="menuSplitIso">
+      <property name="title">
+       <string>Split</string>
+      </property>
+      <addaction name="actionIsoSplitA"/>
+      <addaction name="actionIsoSplitMid"/>
+      <addaction name="actionIsoSplitB"/>
+     </widget>
+     <widget class="QMenu" name="menuSunsetIso">
+      <property name="title">
+       <string>Sunset</string>
+      </property>
+      <addaction name="actionIsoSunsetA"/>
+      <addaction name="actionIsoSunsetMid"/>
+      <addaction name="actionIsoSunsetB"/>
+     </widget>
+     <addaction name="menuAbyssIso"/>
+     <addaction name="menuAscentIso"/>
+     <addaction name="menuBindIso"/>
+     <addaction name="menuBreezeIso"/>
+     <addaction name="menuFractureIso"/>
+     <addaction name="menuHavenIso"/>
+     <addaction name="menuIceboxIso"/>
+     <addaction name="menuLotusIso"/>
+     <addaction name="menuPearlIso"/>
+     <addaction name="menuSplitIso"/>
+     <addaction name="menuSunsetIso"/>
+    </widget>
+    <widget class="QMenu" name="menuJett">
+     <property name="title">
+      <string>Jett</string>
+     </property>
+     <widget class="QMenu" name="menuAbyssJett">
+      <property name="title">
+       <string>Abyss</string>
+      </property>
+      <addaction name="actionJettAbyssA"/>
+      <addaction name="actionJettAbyssMid"/>
+      <addaction name="actionJettAbyssB"/>
+     </widget>
+     <widget class="QMenu" name="menuAscentJett">
+      <property name="title">
+       <string>Ascent</string>
+      </property>
+      <addaction name="actionJettAscentA"/>
+      <addaction name="actionJettAscentMid"/>
+      <addaction name="actionJettAscentB"/>
+     </widget>
+     <widget class="QMenu" name="menuBindJett">
+      <property name="title">
+       <string>Bind</string>
+      </property>
+      <addaction name="actionJettBindA"/>
+      <addaction name="actionJettBindB"/>
+     </widget>
+     <widget class="QMenu" name="menuBreezeJett">
+      <property name="title">
+       <string>Breeze</string>
+      </property>
+      <addaction name="actionJettBreezeA"/>
+      <addaction name="actionJettBreezeMid"/>
+      <addaction name="actionJettBreezeB"/>
+     </widget>
+     <widget class="QMenu" name="menuFractureJett">
+      <property name="title">
+       <string>Fracture</string>
+      </property>
+      <addaction name="actionJettFractureA"/>
+      <addaction name="actionJettFractureMid"/>
+      <addaction name="actionJettFractureB"/>
+     </widget>
+     <widget class="QMenu" name="menuHavenJett">
+      <property name="title">
+       <string>Haven</string>
+      </property>
+      <addaction name="actionJettHavenA"/>
+      <addaction name="actionJettHavenB"/>
+      <addaction name="actionJettHavenC"/>
+     </widget>
+     <widget class="QMenu" name="menuIceboxJett">
+      <property name="title">
+       <string>Icebox</string>
+      </property>
+      <addaction name="actionJettIceboxA"/>
+      <addaction name="actionJettIceboxMid"/>
+      <addaction name="actionJettIceboxB"/>
+     </widget>
+     <widget class="QMenu" name="menuLotusJett">
+      <property name="title">
+       <string>Lotus</string>
+      </property>
+      <addaction name="actionJettLotusA"/>
+      <addaction name="actionJettLotusB"/>
+      <addaction name="actionJettLotusC"/>
+     </widget>
+     <widget class="QMenu" name="menuPearlJett">
+      <property name="title">
+       <string>Pearl</string>
+      </property>
+      <addaction name="actionJettPearlA"/>
+      <addaction name="actionJettPearlMid"/>
+      <addaction name="actionJettPearlB"/>
+     </widget>
+     <widget class="QMenu" name="menuSplitJett">
+      <property name="title">
+       <string>Split</string>
+      </property>
+      <addaction name="actionJettSplitA"/>
+      <addaction name="actionJettSplitMid"/>
+      <addaction name="actionJettSplitB"/>
+     </widget>
+     <widget class="QMenu" name="menuSunsetJett">
+      <property name="title">
+       <string>Sunset</string>
+      </property>
+      <addaction name="actionJettSunsetA"/>
+      <addaction name="actionJettSunsetMid"/>
+      <addaction name="actionJettSunsetB"/>
+     </widget>
+     <addaction name="menuAbyssJett"/>
+     <addaction name="menuAscentJett"/>
+     <addaction name="menuBindJett"/>
+     <addaction name="menuBreezeJett"/>
+     <addaction name="menuFractureJett"/>
+     <addaction name="menuHavenJett"/>
+     <addaction name="menuIceboxJett"/>
+     <addaction name="menuLotusJett"/>
+     <addaction name="menuPearlJett"/>
+     <addaction name="menuSplitJett"/>
+     <addaction name="menuSunsetJett"/>
+    </widget>
+    <widget class="QMenu" name="menuKayo">
+     <property name="title">
+      <string>Kayo</string>
+     </property>
+     <widget class="QMenu" name="menuAbyssKayo">
+      <property name="title">
+       <string>Abyss</string>
+      </property>
+      <addaction name="actionKayoAbyssA"/>
+      <addaction name="actionKayoAbyssMid"/>
+      <addaction name="actionKayoAbyssB"/>
+     </widget>
+     <widget class="QMenu" name="menuAscentKayo">
+      <property name="title">
+       <string>Ascent</string>
+      </property>
+      <addaction name="actionKayoAscentA"/>
+      <addaction name="actionKayoAscentMid"/>
+      <addaction name="actionKayoAscentB"/>
+     </widget>
+     <widget class="QMenu" name="menuBindKayo">
+      <property name="title">
+       <string>Bind</string>
+      </property>
+      <addaction name="actionKayoBindA"/>
+      <addaction name="actionKayoBindB"/>
+     </widget>
+     <widget class="QMenu" name="menuBreezeKayo">
+      <property name="title">
+       <string>Breeze</string>
+      </property>
+      <addaction name="actionKayoBreezeA"/>
+      <addaction name="actionKayoBreezeMid"/>
+      <addaction name="actionKayoBreezeB"/>
+     </widget>
+     <widget class="QMenu" name="menuFractureKayo">
+      <property name="title">
+       <string>Fracture</string>
+      </property>
+      <addaction name="actionKayoFractureA"/>
+      <addaction name="actionKayoFractureMid"/>
+      <addaction name="actionKayoFractureB"/>
+     </widget>
+     <widget class="QMenu" name="menuHavenKayo">
+      <property name="title">
+       <string>Haven</string>
+      </property>
+      <addaction name="actionKayoHavenA"/>
+      <addaction name="actionKayoHavenB"/>
+      <addaction name="actionKayoHavenC"/>
+     </widget>
+     <widget class="QMenu" name="menuIceboxKayo">
+      <property name="title">
+       <string>Icebox</string>
+      </property>
+      <addaction name="actionKayoIceboxA"/>
+      <addaction name="actionKayoIceboxMid"/>
+      <addaction name="actionKayoIceboxB"/>
+     </widget>
+     <widget class="QMenu" name="menuLotusKayo">
+      <property name="title">
+       <string>Lotus</string>
+      </property>
+      <addaction name="actionKayoLotusA"/>
+      <addaction name="actionKayoLotusB"/>
+      <addaction name="actionKayoLotusC"/>
+     </widget>
+     <widget class="QMenu" name="menuPearlKayo">
+      <property name="title">
+       <string>Pearl</string>
+      </property>
+      <addaction name="actionKayoPearlA"/>
+      <addaction name="actionKayoPearlMid"/>
+      <addaction name="actionKayoPearlB"/>
+     </widget>
+     <widget class="QMenu" name="menuSplitKayo">
+      <property name="title">
+       <string>Split</string>
+      </property>
+      <addaction name="actionKayoSplitA"/>
+      <addaction name="actionKayoSplitMid"/>
+      <addaction name="actionKayoSplitB"/>
+     </widget>
+     <widget class="QMenu" name="menuSunsetKayo">
+      <property name="title">
+       <string>Sunset</string>
+      </property>
+      <addaction name="actionKayoSunsetA"/>
+      <addaction name="actionKayoSunsetMid"/>
+      <addaction name="actionKayoSunsetB"/>
+     </widget>
+     <addaction name="menuAbyssKayo"/>
+     <addaction name="menuAscentKayo"/>
+     <addaction name="menuBindKayo"/>
+     <addaction name="menuBreezeKayo"/>
+     <addaction name="menuFractureKayo"/>
+     <addaction name="menuHavenKayo"/>
+     <addaction name="menuIceboxKayo"/>
+     <addaction name="menuLotusKayo"/>
+     <addaction name="menuPearlKayo"/>
+     <addaction name="menuSplitKayo"/>
+     <addaction name="menuSunsetKayo"/>
+    </widget>
+    <widget class="QMenu" name="menuKilljoy">
+     <property name="title">
+      <string>Killjoy</string>
+     </property>
+     <widget class="QMenu" name="menuAbyssKilljoy">
+      <property name="title">
+       <string>Abyss</string>
+      </property>
+      <addaction name="actionKilljoyAbyssA"/>
+      <addaction name="actionKilljoyAbyssMid"/>
+      <addaction name="actionKilljoyAbyssB"/>
+     </widget>
+     <widget class="QMenu" name="menuAscentKilljoy">
+      <property name="title">
+       <string>Ascent</string>
+      </property>
+      <addaction name="actionKilljoyAscentA"/>
+      <addaction name="actionKilljoyAscentMid"/>
+      <addaction name="actionKilljoyAscentB"/>
+     </widget>
+     <widget class="QMenu" name="menuBindKilljoy">
+      <property name="title">
+       <string>Bind</string>
+      </property>
+      <addaction name="actionKilljoyBindA"/>
+      <addaction name="actionKilljoyBindB"/>
+     </widget>
+     <widget class="QMenu" name="menuBreezeKilljoy">
+      <property name="title">
+       <string>Breeze</string>
+      </property>
+      <addaction name="actionKilljoyBreezeA"/>
+      <addaction name="actionKilljoyBreezeMid"/>
+      <addaction name="actionKilljoyBreezeB"/>
+     </widget>
+     <widget class="QMenu" name="menuFractureKilljoy">
+      <property name="title">
+       <string>Fracture</string>
+      </property>
+      <addaction name="actionKilljoyFractureA"/>
+      <addaction name="actionKilljoyFractureMid"/>
+      <addaction name="actionKilljoyFractureB"/>
+     </widget>
+     <widget class="QMenu" name="menuHavenKilljoy">
+      <property name="title">
+       <string>Haven</string>
+      </property>
+      <addaction name="actionKilljoyHavenA"/>
+      <addaction name="actionKilljoyHavenB"/>
+      <addaction name="actionKilljoyHavenC"/>
+     </widget>
+     <widget class="QMenu" name="menuIceboxKilljoy">
+      <property name="title">
+       <string>Icebox</string>
+      </property>
+      <addaction name="actionKilljoyIceboxA"/>
+      <addaction name="actionKilljoyIceboxMid"/>
+      <addaction name="actionKilljoyIceboxB"/>
+     </widget>
+     <widget class="QMenu" name="menuLotusKilljoy">
+      <property name="title">
+       <string>Lotus</string>
+      </property>
+      <addaction name="actionKilljoyLotusA"/>
+      <addaction name="actionKilljoyLotusB"/>
+      <addaction name="actionKilljoyLotusC"/>
+     </widget>
+     <widget class="QMenu" name="menuPearlKilljoy">
+      <property name="title">
+       <string>Pearl</string>
+      </property>
+      <addaction name="actionKilljoyPearlA"/>
+      <addaction name="actionKilljoyPearlMid"/>
+      <addaction name="actionKilljoyPearlB"/>
+     </widget>
+     <widget class="QMenu" name="menuSplitKilljoy">
+      <property name="title">
+       <string>Split</string>
+      </property>
+      <addaction name="actionKilljoySplitA"/>
+      <addaction name="actionKilljoySplitMid"/>
+      <addaction name="actionKilljoySplitB"/>
+     </widget>
+     <widget class="QMenu" name="menuSunsetKilljoy">
+      <property name="title">
+       <string>Sunset</string>
+      </property>
+      <addaction name="actionKilljoySunsetA"/>
+      <addaction name="actionKilljoySunsetMid"/>
+      <addaction name="actionKilljoySunsetB"/>
+     </widget>
+     <addaction name="menuAbyssKilljoy"/>
+     <addaction name="menuAscentKilljoy"/>
+     <addaction name="menuBindKilljoy"/>
+     <addaction name="menuBreezeKilljoy"/>
+     <addaction name="menuFractureKilljoy"/>
+     <addaction name="menuHavenKilljoy"/>
+     <addaction name="menuIceboxKilljoy"/>
+     <addaction name="menuLotusKilljoy"/>
+     <addaction name="menuPearlKilljoy"/>
+     <addaction name="menuSplitKilljoy"/>
+     <addaction name="menuSunsetKilljoy"/>
+    </widget>
+    <widget class="QMenu" name="menuNeon">
+     <property name="title">
+      <string>Neon</string>
+     </property>
+     <widget class="QMenu" name="menuAbyssNeon">
+      <property name="title">
+       <string>Abyss</string>
+      </property>
+      <addaction name="actionNeonAbyssA"/>
+      <addaction name="actionNeonAbyssMid"/>
+      <addaction name="actionNeonAbyssB"/>
+     </widget>
+     <widget class="QMenu" name="menuAscentNeon">
+      <property name="title">
+       <string>Ascent</string>
+      </property>
+      <addaction name="actionNeonAscentA"/>
+      <addaction name="actionNeonAscentMid"/>
+      <addaction name="actionNeonAscentB"/>
+     </widget>
+     <widget class="QMenu" name="menuBindNeon">
+      <property name="title">
+       <string>Bind</string>
+      </property>
+      <addaction name="actionNeonBindA"/>
+      <addaction name="actionNeonBindB"/>
+     </widget>
+     <widget class="QMenu" name="menuBreezeNeon">
+      <property name="title">
+       <string>Breeze</string>
+      </property>
+      <addaction name="actionNeonBreezeA"/>
+      <addaction name="actionNeonBreezeMid"/>
+      <addaction name="actionNeonBreezeB"/>
+     </widget>
+     <widget class="QMenu" name="menuFractureNeon">
+      <property name="title">
+       <string>Fracture</string>
+      </property>
+      <addaction name="actionNeonFractureA"/>
+      <addaction name="actionNeonFractureMid"/>
+      <addaction name="actionNeonFractureB"/>
+     </widget>
+     <widget class="QMenu" name="menuHavenNeon">
+      <property name="title">
+       <string>Haven</string>
+      </property>
+      <addaction name="actionNeonHavenA"/>
+      <addaction name="actionNeonHavenB"/>
+      <addaction name="actionNeonHavenC"/>
+     </widget>
+     <widget class="QMenu" name="menuIceboxNeon">
+      <property name="title">
+       <string>Icebox</string>
+      </property>
+      <addaction name="actionNeonIceboxA"/>
+      <addaction name="actionNeonIceboxMid"/>
+      <addaction name="actionNeonIceboxB"/>
+     </widget>
+     <widget class="QMenu" name="menuLotusNeon">
+      <property name="title">
+       <string>Lotus</string>
+      </property>
+      <addaction name="actionNeonLotusA"/>
+      <addaction name="actionNeonLotusB"/>
+      <addaction name="actionNeonLotusC"/>
+     </widget>
+     <widget class="QMenu" name="menuPearlNeon">
+      <property name="title">
+       <string>Pearl</string>
+      </property>
+      <addaction name="actionNeonPearlA"/>
+      <addaction name="actionNeonPearlMid"/>
+      <addaction name="actionNeonPearlB"/>
+     </widget>
+     <widget class="QMenu" name="menuSplitNeon">
+      <property name="title">
+       <string>Split</string>
+      </property>
+      <addaction name="actionNeonSplitA"/>
+      <addaction name="actionNeonSplitMid"/>
+      <addaction name="actionNeonSplitB"/>
+     </widget>
+     <widget class="QMenu" name="menuSunsetNeon">
+      <property name="title">
+       <string>Sunset</string>
+      </property>
+      <addaction name="actionNeonSunsetA"/>
+      <addaction name="actionNeonSunsetMid"/>
+      <addaction name="actionNeonSunsetB"/>
+     </widget>
+     <addaction name="menuAbyssNeon"/>
+     <addaction name="menuAscentNeon"/>
+     <addaction name="menuBindNeon"/>
+     <addaction name="menuBreezeNeon"/>
+     <addaction name="menuFractureNeon"/>
+     <addaction name="menuHavenNeon"/>
+     <addaction name="menuIceboxNeon"/>
+     <addaction name="menuLotusNeon"/>
+     <addaction name="menuPearlNeon"/>
+     <addaction name="menuSplitNeon"/>
+     <addaction name="menuSunsetNeon"/>
+    </widget>
+    <widget class="QMenu" name="menuOmen">
+     <property name="title">
+      <string>Omen</string>
+     </property>
+     <widget class="QMenu" name="menuAbyssOmen">
+      <property name="title">
+       <string>Abyss</string>
+      </property>
+      <addaction name="actionOmenAbyssA"/>
+      <addaction name="actionOmenAbyssMid"/>
+      <addaction name="actionOmenAbyssB"/>
+     </widget>
+     <widget class="QMenu" name="menuAscentOmen">
+      <property name="title">
+       <string>Ascent</string>
+      </property>
+      <addaction name="actionOmenAscentA"/>
+      <addaction name="actionOmenAscentMid"/>
+      <addaction name="actionOmenAscentB"/>
+     </widget>
+     <widget class="QMenu" name="menuBindOmen">
+      <property name="title">
+       <string>Bind</string>
+      </property>
+      <addaction name="actionOmenBindA"/>
+      <addaction name="actionOmenBindB"/>
+     </widget>
+     <widget class="QMenu" name="menuBreezeOmen">
+      <property name="title">
+       <string>Breeze</string>
+      </property>
+      <addaction name="actionOmenBreezeA"/>
+      <addaction name="actionOmenBreezeMid"/>
+      <addaction name="actionOmenBreezeB"/>
+     </widget>
+     <widget class="QMenu" name="menuFractureOmen">
+      <property name="title">
+       <string>Fracture</string>
+      </property>
+      <addaction name="actionOmenFractureA"/>
+      <addaction name="actionOmenFractureMid"/>
+      <addaction name="actionOmenFractureB"/>
+     </widget>
+     <widget class="QMenu" name="menuHavenOmen">
+      <property name="title">
+       <string>Haven</string>
+      </property>
+      <addaction name="actionOmenHavenA"/>
+      <addaction name="actionOmenHavenB"/>
+      <addaction name="actionOmenHavenC"/>
+     </widget>
+     <widget class="QMenu" name="menuIceboxOmen">
+      <property name="title">
+       <string>Icebox</string>
+      </property>
+      <addaction name="actionOmenIceboxA"/>
+      <addaction name="actionOmenIceboxMid"/>
+      <addaction name="actionOmenIceboxB"/>
+     </widget>
+     <widget class="QMenu" name="menuLotusOmen">
+      <property name="title">
+       <string>Lotus</string>
+      </property>
+      <addaction name="actionOmenLotusA"/>
+      <addaction name="actionOmenLotusB"/>
+      <addaction name="actionOmenLotusC"/>
+     </widget>
+     <widget class="QMenu" name="menuPearlOmen">
+      <property name="title">
+       <string>Pearl</string>
+      </property>
+      <addaction name="actionOmenPearlA"/>
+      <addaction name="actionOmenPearlMid"/>
+      <addaction name="actionOmenPearlB"/>
+     </widget>
+     <widget class="QMenu" name="menuSplitOmen">
+      <property name="title">
+       <string>Split</string>
+      </property>
+      <addaction name="actionOmenSplitA"/>
+      <addaction name="actionOmenSplitMid"/>
+      <addaction name="actionOmenSplitB"/>
+     </widget>
+     <widget class="QMenu" name="menuSunsetOmen">
+      <property name="title">
+       <string>Sunset</string>
+      </property>
+      <addaction name="actionOmenSunsetA"/>
+      <addaction name="actionOmenSunsetMid"/>
+      <addaction name="actionOmenSunsetB"/>
+     </widget>
+     <addaction name="menuAbyssOmen"/>
+     <addaction name="menuAscentOmen"/>
+     <addaction name="menuBindOmen"/>
+     <addaction name="menuBreezeOmen"/>
+     <addaction name="menuFractureOmen"/>
+     <addaction name="menuHavenOmen"/>
+     <addaction name="menuIceboxOmen"/>
+     <addaction name="menuLotusOmen"/>
+     <addaction name="menuPearlOmen"/>
+     <addaction name="menuSplitOmen"/>
+     <addaction name="menuSunsetOmen"/>
+    </widget>
+    <widget class="QMenu" name="menuPhoenix">
+     <property name="title">
+      <string>Phoenix</string>
+     </property>
+     <widget class="QMenu" name="menuAbyssPhoenix">
+      <property name="title">
+       <string>Abyss</string>
+      </property>
+      <addaction name="actionPhoenixAbyssA"/>
+      <addaction name="actionPhoenixAbyssMid"/>
+      <addaction name="actionPhoenixAbyssB"/>
+     </widget>
+     <widget class="QMenu" name="menuAscentPhoenix">
+      <property name="title">
+       <string>Ascent</string>
+      </property>
+      <addaction name="actionPhoenixAscentA"/>
+      <addaction name="actionPhoenixAscentMid"/>
+      <addaction name="actionPhoenixAscentB"/>
+     </widget>
+     <widget class="QMenu" name="menuBindPhoenix">
+      <property name="title">
+       <string>Bind</string>
+      </property>
+      <addaction name="actionPhoenixBindA"/>
+      <addaction name="actionPhoenixBindB"/>
+     </widget>
+     <widget class="QMenu" name="menuBreezePhoenix">
+      <property name="title">
+       <string>Breeze</string>
+      </property>
+      <addaction name="actionPhoenixBreezeA"/>
+      <addaction name="actionPhoenixBreezeMid"/>
+      <addaction name="actionPhoenixBreezeB"/>
+     </widget>
+     <widget class="QMenu" name="menuFracturePhoenix">
+      <property name="title">
+       <string>Fracture</string>
+      </property>
+      <addaction name="actionPhoenixFractureA"/>
+      <addaction name="actionPhoenixFractureMid"/>
+      <addaction name="actionPhoenixFractureB"/>
+     </widget>
+     <widget class="QMenu" name="menuHavenPhoenix">
+      <property name="title">
+       <string>Haven</string>
+      </property>
+      <addaction name="actionPhoenixHavenA"/>
+      <addaction name="actionPhoenixHavenB"/>
+      <addaction name="actionPhoenixHavenC"/>
+     </widget>
+     <widget class="QMenu" name="menuIceboxPhoenix">
+      <property name="title">
+       <string>Icebox</string>
+      </property>
+      <addaction name="actionPhoenixIceboxA"/>
+      <addaction name="actionPhoenixIceboxMid"/>
+      <addaction name="actionPhoenixIceboxB"/>
+     </widget>
+     <widget class="QMenu" name="menuLotusPhoenix">
+      <property name="title">
+       <string>Lotus</string>
+      </property>
+      <addaction name="actionPhoenixLotusA"/>
+      <addaction name="actionPhoenixLotusB"/>
+      <addaction name="actionPhoenixLotusC"/>
+     </widget>
+     <widget class="QMenu" name="menuPearlPhoenix">
+      <property name="title">
+       <string>Pearl</string>
+      </property>
+      <addaction name="actionPhoenixPearlA"/>
+      <addaction name="actionPhoenixPearlMid"/>
+      <addaction name="actionPhoenixPearlB"/>
+     </widget>
+     <widget class="QMenu" name="menuSplitPhoenix">
+      <property name="title">
+       <string>Split</string>
+      </property>
+      <addaction name="actionPhoenixSplitA"/>
+      <addaction name="actionPhoenixSplitMid"/>
+      <addaction name="actionPhoenixSplitB"/>
+     </widget>
+     <widget class="QMenu" name="menuSunsetPhoenix">
+      <property name="title">
+       <string>Sunset</string>
+      </property>
+      <addaction name="actionPhoenixSunsetA"/>
+      <addaction name="actionPhoenixSunsetMid"/>
+      <addaction name="actionPhoenixSunsetB"/>
+     </widget>
+     <addaction name="menuAbyssPhoenix"/>
+     <addaction name="menuAscentPhoenix"/>
+     <addaction name="menuBindPhoenix"/>
+     <addaction name="menuBreezePhoenix"/>
+     <addaction name="menuFracturePhoenix"/>
+     <addaction name="menuHavenPhoenix"/>
+     <addaction name="menuIceboxPhoenix"/>
+     <addaction name="menuLotusPhoenix"/>
+     <addaction name="menuPearlPhoenix"/>
+     <addaction name="menuSplitPhoenix"/>
+     <addaction name="menuSunsetPhoenix"/>
+    </widget>
+    <widget class="QMenu" name="menuRaze">
+     <property name="title">
+      <string>Raze</string>
+     </property>
+     <widget class="QMenu" name="menuAbyssRaze">
+      <property name="title">
+       <string>Abyss</string>
+      </property>
+      <addaction name="actionRazeAbyssA"/>
+      <addaction name="actionRazeAbyssMid"/>
+      <addaction name="actionRazeAbyssB"/>
+     </widget>
+     <widget class="QMenu" name="menuAscentRaze">
+      <property name="title">
+       <string>Ascent</string>
+      </property>
+      <addaction name="actionRazeAscentA"/>
+      <addaction name="actionRazeAscentMid"/>
+      <addaction name="actionRazeAscentB"/>
+     </widget>
+     <widget class="QMenu" name="menuBindRaze">
+      <property name="title">
+       <string>Bind</string>
+      </property>
+      <addaction name="actionRazeBindA"/>
+      <addaction name="actionRazeBindB"/>
+     </widget>
+     <widget class="QMenu" name="menuBreezeRaze">
+      <property name="title">
+       <string>Breeze</string>
+      </property>
+      <addaction name="actionRazeBreezeA"/>
+      <addaction name="actionRazeBreezeMid"/>
+      <addaction name="actionRazeBreezeB"/>
+     </widget>
+     <widget class="QMenu" name="menuFractureRaze">
+      <property name="title">
+       <string>Fracture</string>
+      </property>
+      <addaction name="actionRazeFractureA"/>
+      <addaction name="actionRazeFractureMid"/>
+      <addaction name="actionRazeFractureB"/>
+     </widget>
+     <widget class="QMenu" name="menuHavenRaze">
+      <property name="title">
+       <string>Haven</string>
+      </property>
+      <addaction name="actionRazeHavenA"/>
+      <addaction name="actionRazeHavenB"/>
+      <addaction name="actionRazeHavenC"/>
+     </widget>
+     <widget class="QMenu" name="menuIceboxRaze">
+      <property name="title">
+       <string>Icebox</string>
+      </property>
+      <addaction name="actionRazeIceboxA"/>
+      <addaction name="actionRazeIceboxMid"/>
+      <addaction name="actionRazeIceboxB"/>
+     </widget>
+     <widget class="QMenu" name="menuLotusRaze">
+      <property name="title">
+       <string>Lotus</string>
+      </property>
+      <addaction name="actionRazeLotusA"/>
+      <addaction name="actionRazeLotusB"/>
+      <addaction name="actionRazeLotusC"/>
+     </widget>
+     <widget class="QMenu" name="menuPearlRaze">
+      <property name="title">
+       <string>Pearl</string>
+      </property>
+      <addaction name="actionRazePearlA"/>
+      <addaction name="actionRazePearlMid"/>
+      <addaction name="actionRazePearlB"/>
+     </widget>
+     <widget class="QMenu" name="menuSplitRaze">
+      <property name="title">
+       <string>Split</string>
+      </property>
+      <addaction name="actionRazeSplitA"/>
+      <addaction name="actionRazeSplitMid"/>
+      <addaction name="actionRazeSplitB"/>
+     </widget>
+     <widget class="QMenu" name="menuSunsetRaze">
+      <property name="title">
+       <string>Sunset</string>
+      </property>
+      <addaction name="actionRazeSunsetA"/>
+      <addaction name="actionRazeSunsetMid"/>
+      <addaction name="actionRazeSunsetB"/>
+     </widget>
+     <addaction name="menuAbyssRaze"/>
+     <addaction name="menuAscentRaze"/>
+     <addaction name="menuBindRaze"/>
+     <addaction name="menuBreezeRaze"/>
+     <addaction name="menuFractureRaze"/>
+     <addaction name="menuHavenRaze"/>
+     <addaction name="menuIceboxRaze"/>
+     <addaction name="menuLotusRaze"/>
+     <addaction name="menuPearlRaze"/>
+     <addaction name="menuSplitRaze"/>
+     <addaction name="menuSunsetRaze"/>
+    </widget>
+    <widget class="QMenu" name="menuReyna">
+     <property name="title">
+      <string>Reyna</string>
+     </property>
+     <widget class="QMenu" name="menuAbyssReyna">
+      <property name="title">
+       <string>Abyss</string>
+      </property>
+      <addaction name="actionReynaAbyssA"/>
+      <addaction name="actionReynaAbyssMid"/>
+      <addaction name="actionReynaAbyssB"/>
+     </widget>
+     <widget class="QMenu" name="menuAscentReyna">
+      <property name="title">
+       <string>Ascent</string>
+      </property>
+      <addaction name="actionReynaAscentA"/>
+      <addaction name="actionReynaAscentMid"/>
+      <addaction name="actionReynaAscentB"/>
+     </widget>
+     <widget class="QMenu" name="menuBindReyna">
+      <property name="title">
+       <string>Bind</string>
+      </property>
+      <addaction name="actionReynaBindA"/>
+      <addaction name="actionReynaBindB"/>
+     </widget>
+     <widget class="QMenu" name="menuBreezeReyna">
+      <property name="title">
+       <string>Breeze</string>
+      </property>
+      <addaction name="actionReynaBreezeA"/>
+      <addaction name="actionReynaBreezeMid"/>
+      <addaction name="actionReynaBreezeB"/>
+     </widget>
+     <widget class="QMenu" name="menuFractureReyna">
+      <property name="title">
+       <string>Fracture</string>
+      </property>
+      <addaction name="actionReynaFractureA"/>
+      <addaction name="actionReynaFractureMid"/>
+      <addaction name="actionReynaFractureB"/>
+     </widget>
+     <widget class="QMenu" name="menuHavenReyna">
+      <property name="title">
+       <string>Haven</string>
+      </property>
+      <addaction name="actionReynaHavenA"/>
+      <addaction name="actionReynaHavenB"/>
+      <addaction name="actionReynaHavenC"/>
+     </widget>
+     <widget class="QMenu" name="menuIceboxReyna">
+      <property name="title">
+       <string>Icebox</string>
+      </property>
+      <addaction name="actionReynaIceboxA"/>
+      <addaction name="actionReynaIceboxMid"/>
+      <addaction name="actionReynaIceboxB"/>
+     </widget>
+     <widget class="QMenu" name="menuLotusReyna">
+      <property name="title">
+       <string>Lotus</string>
+      </property>
+      <addaction name="actionReynaLotusA"/>
+      <addaction name="actionReynaLotusB"/>
+      <addaction name="actionReynaLotusC"/>
+     </widget>
+     <widget class="QMenu" name="menuPearlReyna">
+      <property name="title">
+       <string>Pearl</string>
+      </property>
+      <addaction name="actionReynaPearlA"/>
+      <addaction name="actionReynaPearlMid"/>
+      <addaction name="actionReynaPearlB"/>
+     </widget>
+     <widget class="QMenu" name="menuSplitReyna">
+      <property name="title">
+       <string>Split</string>
+      </property>
+      <addaction name="actionReynaSplitA"/>
+      <addaction name="actionReynaSplitMid"/>
+      <addaction name="actionReynaSplitB"/>
+     </widget>
+     <widget class="QMenu" name="menuSunsetReyna">
+      <property name="title">
+       <string>Sunset</string>
+      </property>
+      <addaction name="actionReynaSunsetA"/>
+      <addaction name="actionReynaSunsetMid"/>
+      <addaction name="actionReynaSunsetB"/>
+     </widget>
+     <addaction name="menuAbyssReyna"/>
+     <addaction name="menuAscentReyna"/>
+     <addaction name="menuBindReyna"/>
+     <addaction name="menuBreezeReyna"/>
+     <addaction name="menuFractureReyna"/>
+     <addaction name="menuHavenReyna"/>
+     <addaction name="menuIceboxReyna"/>
+     <addaction name="menuLotusReyna"/>
+     <addaction name="menuPearlReyna"/>
+     <addaction name="menuSplitReyna"/>
+     <addaction name="menuSunsetReyna"/>
+    </widget>
+    <widget class="QMenu" name="menuSage">
+     <property name="title">
+      <string>Sage</string>
+     </property>
+     <widget class="QMenu" name="menuAbyssSage">
+      <property name="title">
+       <string>Abyss</string>
+      </property>
+      <addaction name="actionSageAbyssA"/>
+      <addaction name="actionSageAbyssMid"/>
+      <addaction name="actionSageAbyssB"/>
+     </widget>
+     <widget class="QMenu" name="menuAscentSage">
+      <property name="title">
+       <string>Ascent</string>
+      </property>
+      <addaction name="actionSageAscentA"/>
+      <addaction name="actionSageAscentMid"/>
+      <addaction name="actionSageAscentB"/>
+     </widget>
+     <widget class="QMenu" name="menuBindSage">
+      <property name="title">
+       <string>Bind</string>
+      </property>
+      <addaction name="actionSageBindA"/>
+      <addaction name="actionSageBindB"/>
+     </widget>
+     <widget class="QMenu" name="menuBreezeSage">
+      <property name="title">
+       <string>Breeze</string>
+      </property>
+      <addaction name="actionSageBreezeA"/>
+      <addaction name="actionSageBreezeMid"/>
+      <addaction name="actionSageBreezeB"/>
+     </widget>
+     <widget class="QMenu" name="menuFractureSage">
+      <property name="title">
+       <string>Fracture</string>
+      </property>
+      <addaction name="actionSageFractureA"/>
+      <addaction name="actionSageFractureMid"/>
+      <addaction name="actionSageFractureB"/>
+     </widget>
+     <widget class="QMenu" name="menuHavenSage">
+      <property name="title">
+       <string>Haven</string>
+      </property>
+      <addaction name="actionSageHavenA"/>
+      <addaction name="actionSageHavenB"/>
+      <addaction name="actionSageHavenC"/>
+     </widget>
+     <widget class="QMenu" name="menuIceboxSage">
+      <property name="title">
+       <string>Icebox</string>
+      </property>
+      <addaction name="actionSageIceboxA"/>
+      <addaction name="actionSageIceboxMid"/>
+      <addaction name="actionSageIceboxB"/>
+     </widget>
+     <widget class="QMenu" name="menuLotusSage">
+      <property name="title">
+       <string>Lotus</string>
+      </property>
+      <addaction name="actionSageLotusA"/>
+      <addaction name="actionSageLotusB"/>
+      <addaction name="actionSageLotusC"/>
+     </widget>
+     <widget class="QMenu" name="menuPearlSage">
+      <property name="title">
+       <string>Pearl</string>
+      </property>
+      <addaction name="actionSagePearlA"/>
+      <addaction name="actionSagePearlMid"/>
+      <addaction name="actionSagePearlB"/>
+     </widget>
+     <widget class="QMenu" name="menuSplitSage">
+      <property name="title">
+       <string>Split</string>
+      </property>
+      <addaction name="actionSageSplitA"/>
+      <addaction name="actionSageSplitMid"/>
+      <addaction name="actionSageSplitB"/>
+     </widget>
+     <widget class="QMenu" name="menuSunsetSage">
+      <property name="title">
+       <string>Sunset</string>
+      </property>
+      <addaction name="actionSageSunsetA"/>
+      <addaction name="actionSageSunsetMid"/>
+      <addaction name="actionSageSunsetB"/>
+     </widget>
+     <addaction name="menuAbyssSage"/>
+     <addaction name="menuAscentSage"/>
+     <addaction name="menuBindSage"/>
+     <addaction name="menuBreezeSage"/>
+     <addaction name="menuFractureSage"/>
+     <addaction name="menuHavenSage"/>
+     <addaction name="menuIceboxSage"/>
+     <addaction name="menuLotusSage"/>
+     <addaction name="menuPearlSage"/>
+     <addaction name="menuSplitSage"/>
+     <addaction name="menuSunsetSage"/>
+    </widget>
+    <widget class="QMenu" name="menuSkye">
+     <property name="title">
+      <string>Skye</string>
+     </property>
+     <widget class="QMenu" name="menuAbyssSkye">
+      <property name="title">
+       <string>Abyss</string>
+      </property>
+      <addaction name="actionSkyeAbyssA"/>
+      <addaction name="actionSkyeAbyssMid"/>
+      <addaction name="actionSkyeAbyssB"/>
+     </widget>
+     <widget class="QMenu" name="menuAscentSkye">
+      <property name="title">
+       <string>Ascent</string>
+      </property>
+      <addaction name="actionSkyeAscentA"/>
+      <addaction name="actionSkyeAscentMid"/>
+      <addaction name="actionSkyeAscentB"/>
+     </widget>
+     <widget class="QMenu" name="menuBindSkye">
+      <property name="title">
+       <string>Bind</string>
+      </property>
+      <addaction name="actionSkyeBindA"/>
+      <addaction name="actionSkyeBindB"/>
+     </widget>
+     <widget class="QMenu" name="menuBreezeSkye">
+      <property name="title">
+       <string>Breeze</string>
+      </property>
+      <addaction name="actionSkyeBreezeA"/>
+      <addaction name="actionSkyeBreezeMid"/>
+      <addaction name="actionSkyeBreezeB"/>
+     </widget>
+     <widget class="QMenu" name="menuFractureSkye">
+      <property name="title">
+       <string>Fracture</string>
+      </property>
+      <addaction name="actionSkyeFractureA"/>
+      <addaction name="actionSkyeFractureMid"/>
+      <addaction name="actionSkyeFractureB"/>
+     </widget>
+     <widget class="QMenu" name="menuHavenSkye">
+      <property name="title">
+       <string>Haven</string>
+      </property>
+      <addaction name="actionSkyeHavenA"/>
+      <addaction name="actionSkyeHavenB"/>
+      <addaction name="actionSkyeHavenC"/>
+     </widget>
+     <widget class="QMenu" name="menuIceboxSkye">
+      <property name="title">
+       <string>Icebox</string>
+      </property>
+      <addaction name="actionSkyeIceboxA"/>
+      <addaction name="actionSkyeIceboxMid"/>
+      <addaction name="actionSkyeIceboxB"/>
+     </widget>
+     <widget class="QMenu" name="menuLotusSkye">
+      <property name="title">
+       <string>Lotus</string>
+      </property>
+      <addaction name="actionSkyeLotusA"/>
+      <addaction name="actionSkyeLotusB"/>
+      <addaction name="actionSkyeLotusC"/>
+     </widget>
+     <widget class="QMenu" name="menuPearlSkye">
+      <property name="title">
+       <string>Pearl</string>
+      </property>
+      <addaction name="actionSkyePearlA"/>
+      <addaction name="actionSkyePearlMid"/>
+      <addaction name="actionSkyePearlB"/>
+     </widget>
+     <widget class="QMenu" name="menuSplitSkye">
+      <property name="title">
+       <string>Split</string>
+      </property>
+      <addaction name="actionSkyeSplitA"/>
+      <addaction name="actionSkyeSplitMid"/>
+      <addaction name="actionSkyeSplitB"/>
+     </widget>
+     <widget class="QMenu" name="menuSunsetSkye">
+      <property name="title">
+       <string>Sunset</string>
+      </property>
+      <addaction name="actionSkyeSunsetA"/>
+      <addaction name="actionSkyeSunsetMid"/>
+      <addaction name="actionSkyeSunsetB"/>
+     </widget>
+     <addaction name="menuAbyssSkye"/>
+     <addaction name="menuAscentSkye"/>
+     <addaction name="menuBindSkye"/>
+     <addaction name="menuBreezeSkye"/>
+     <addaction name="menuFractureSkye"/>
+     <addaction name="menuHavenSkye"/>
+     <addaction name="menuIceboxSkye"/>
+     <addaction name="menuLotusSkye"/>
+     <addaction name="menuPearlSkye"/>
+     <addaction name="menuSplitSkye"/>
+     <addaction name="menuSunsetSkye"/>
+    </widget>
+    <widget class="QMenu" name="menuSova">
+     <property name="title">
+      <string>Sova</string>
+     </property>
+     <widget class="QMenu" name="menuAbyssSova">
+      <property name="title">
+       <string>Abyss</string>
+      </property>
+      <addaction name="actionSovaAbyssA"/>
+      <addaction name="actionSovaAbyssMid"/>
+      <addaction name="actionSovaAbyssB"/>
+     </widget>
+     <widget class="QMenu" name="menuAscentSova">
+      <property name="title">
+       <string>Ascent</string>
+      </property>
+      <addaction name="actionSovaAscentA"/>
+      <addaction name="actionSovaAscentMid"/>
+      <addaction name="actionSovaAscentB"/>
+     </widget>
+     <widget class="QMenu" name="menuBindSova">
+      <property name="title">
+       <string>Bind</string>
+      </property>
+      <addaction name="actionSovaBindA"/>
+      <addaction name="actionSovaBindB"/>
+     </widget>
+     <widget class="QMenu" name="menuBreezeSova">
+      <property name="title">
+       <string>Breeze</string>
+      </property>
+      <addaction name="actionSovaBreezeA"/>
+      <addaction name="actionSovaBreezeMid"/>
+      <addaction name="actionSovaBreezeB"/>
+     </widget>
+     <widget class="QMenu" name="menuFractureSova">
+      <property name="title">
+       <string>Fracture</string>
+      </property>
+      <addaction name="actionSovaFractureA"/>
+      <addaction name="actionSovaFractureMid"/>
+      <addaction name="actionSovaFractureB"/>
+     </widget>
+     <widget class="QMenu" name="menuHavenSova">
+      <property name="title">
+       <string>Haven</string>
+      </property>
+      <addaction name="actionSovaHavenA"/>
+      <addaction name="actionSovaHavenB"/>
+      <addaction name="actionSovaHavenC"/>
+     </widget>
+     <widget class="QMenu" name="menuIceboxSova">
+      <property name="title">
+       <string>Icebox</string>
+      </property>
+      <addaction name="actionSovaIceboxA"/>
+      <addaction name="actionSovaIceboxMid"/>
+      <addaction name="actionSovaIceboxB"/>
+     </widget>
+     <widget class="QMenu" name="menuLotusSova">
+      <property name="title">
+       <string>Lotus</string>
+      </property>
+      <addaction name="actionSovaLotusA"/>
+      <addaction name="actionSovaLotusB"/>
+      <addaction name="actionSovaLotusC"/>
+     </widget>
+     <widget class="QMenu" name="menuPearlSova">
+      <property name="title">
+       <string>Pearl</string>
+      </property>
+      <addaction name="actionSovaPearlA"/>
+      <addaction name="actionSovaPearlMid"/>
+      <addaction name="actionSovaPearlB"/>
+     </widget>
+     <widget class="QMenu" name="menuSplitSova">
+      <property name="title">
+       <string>Split</string>
+      </property>
+      <addaction name="actionSovaSplitA"/>
+      <addaction name="actionSovaSplitMid"/>
+      <addaction name="actionSovaSplitB"/>
+     </widget>
+     <widget class="QMenu" name="menuSunsetSova">
+      <property name="title">
+       <string>Sunset</string>
+      </property>
+      <addaction name="actionSovaSunsetA"/>
+      <addaction name="actionSovaSunsetMid"/>
+      <addaction name="actionSovaSunsetB"/>
+     </widget>
+     <addaction name="menuAbyssSova"/>
+     <addaction name="menuAscentSova"/>
+     <addaction name="menuBindSova"/>
+     <addaction name="menuBreezeSova"/>
+     <addaction name="menuFractureSova"/>
+     <addaction name="menuHavenSova"/>
+     <addaction name="menuIceboxSova"/>
+     <addaction name="menuLotusSova"/>
+     <addaction name="menuPearlSova"/>
+     <addaction name="menuSplitSova"/>
+     <addaction name="menuSunsetSova"/>
+    </widget>
+    <widget class="QMenu" name="menuTejo">
+     <property name="title">
+      <string>Tejo</string>
+     </property>
+     <widget class="QMenu" name="menuAbyssTejo">
+      <property name="title">
+       <string>Abyss</string>
+      </property>
+      <addaction name="actionTejoAbyssA"/>
+      <addaction name="actionTejoAbyssMid"/>
+      <addaction name="actionTejoAbyssB"/>
+     </widget>
+     <widget class="QMenu" name="menuAscentTejo">
+      <property name="title">
+       <string>Ascent</string>
+      </property>
+      <addaction name="actionTejoAscentA"/>
+      <addaction name="actionTejoAscentMid"/>
+      <addaction name="actionTejoAscentB"/>
+     </widget>
+     <widget class="QMenu" name="menuBindTejo">
+      <property name="title">
+       <string>Bind</string>
+      </property>
+      <addaction name="actionTejoBindA"/>
+      <addaction name="actionTejoBindB"/>
+     </widget>
+     <widget class="QMenu" name="menuBreezeTejo">
+      <property name="title">
+       <string>Breeze</string>
+      </property>
+      <addaction name="actionTejoBreezeA"/>
+      <addaction name="actionTejoBreezeMid"/>
+      <addaction name="actionTejoBreezeB"/>
+     </widget>
+     <widget class="QMenu" name="menuFractureTejo">
+      <property name="title">
+       <string>Fracture</string>
+      </property>
+      <addaction name="actionTejoFractureA"/>
+      <addaction name="actionTejoFractureMid"/>
+      <addaction name="actionTejoFractureB"/>
+     </widget>
+     <widget class="QMenu" name="menuHavenTejo">
+      <property name="title">
+       <string>Haven</string>
+      </property>
+      <addaction name="actionTejoHavenA"/>
+      <addaction name="actionTejoHavenB"/>
+      <addaction name="actionTejoHavenC"/>
+     </widget>
+     <widget class="QMenu" name="menuIceboxTejo">
+      <property name="title">
+       <string>Icebox</string>
+      </property>
+      <addaction name="actionTejoIceboxA"/>
+      <addaction name="actionTejoIceboxMid"/>
+      <addaction name="actionTejoIceboxB"/>
+     </widget>
+     <widget class="QMenu" name="menuLotusTejo">
+      <property name="title">
+       <string>Lotus</string>
+      </property>
+      <addaction name="actionTejoLotusA"/>
+      <addaction name="actionTejoLotusB"/>
+      <addaction name="actionTejoLotusC"/>
+     </widget>
+     <widget class="QMenu" name="menuPearlTejo">
+      <property name="title">
+       <string>Pearl</string>
+      </property>
+      <addaction name="actionTejoPearlA"/>
+      <addaction name="actionTejoPearlMid"/>
+      <addaction name="actionTejoPearlB"/>
+     </widget>
+     <widget class="QMenu" name="menuSplitTejo">
+      <property name="title">
+       <string>Split</string>
+      </property>
+      <addaction name="actionTejoSplitA"/>
+      <addaction name="actionTejoSplitMid"/>
+      <addaction name="actionTejoSplitB"/>
+     </widget>
+     <widget class="QMenu" name="menuSunsetTejo">
+      <property name="title">
+       <string>Sunset</string>
+      </property>
+      <addaction name="actionTejoSunsetA"/>
+      <addaction name="actionTejoSunsetMid"/>
+      <addaction name="actionTejoSunsetB"/>
+     </widget>
+     <addaction name="menuAbyssTejo"/>
+     <addaction name="menuAscentTejo"/>
+     <addaction name="menuBindTejo"/>
+     <addaction name="menuBreezeTejo"/>
+     <addaction name="menuFractureTejo"/>
+     <addaction name="menuHavenTejo"/>
+     <addaction name="menuIceboxTejo"/>
+     <addaction name="menuLotusTejo"/>
+     <addaction name="menuPearlTejo"/>
+     <addaction name="menuSplitTejo"/>
+     <addaction name="menuSunsetTejo"/>
+    </widget>
+    <widget class="QMenu" name="menuViper">
+     <property name="title">
+      <string>Viper</string>
+     </property>
+     <widget class="QMenu" name="menuAbyssViper">
+      <property name="title">
+       <string>Abyss</string>
+      </property>
+      <addaction name="actionViperAbyssA"/>
+      <addaction name="actionViperAbyssMid"/>
+      <addaction name="actionViperAbyssB"/>
+     </widget>
+     <widget class="QMenu" name="menuAscentViper">
+      <property name="title">
+       <string>Ascent</string>
+      </property>
+      <addaction name="actionViperAscentA"/>
+      <addaction name="actionViperAscentMid"/>
+      <addaction name="actionViperAscentB"/>
+     </widget>
+     <widget class="QMenu" name="menuBindViper">
+      <property name="title">
+       <string>Bind</string>
+      </property>
+      <addaction name="actionViperBindA"/>
+      <addaction name="actionViperBindB"/>
+     </widget>
+     <widget class="QMenu" name="menuBreezeViper">
+      <property name="title">
+       <string>Breeze</string>
+      </property>
+      <addaction name="actionViperBreezeA"/>
+      <addaction name="actionViperBreezeMid"/>
+      <addaction name="actionViperBreezeB"/>
+     </widget>
+     <widget class="QMenu" name="menuFractureViper">
+      <property name="title">
+       <string>Fracture</string>
+      </property>
+      <addaction name="actionViperFractureA"/>
+      <addaction name="actionViperFractureMid"/>
+      <addaction name="actionViperFractureB"/>
+     </widget>
+     <widget class="QMenu" name="menuHavenViper">
+      <property name="title">
+       <string>Haven</string>
+      </property>
+      <addaction name="actionViperHavenA"/>
+      <addaction name="actionViperHavenB"/>
+      <addaction name="actionViperHavenC"/>
+     </widget>
+     <widget class="QMenu" name="menuIceboxViper">
+      <property name="title">
+       <string>Icebox</string>
+      </property>
+      <addaction name="actionViperIceboxA"/>
+      <addaction name="actionViperIceboxMid"/>
+      <addaction name="actionViperIceboxB"/>
+     </widget>
+     <widget class="QMenu" name="menuLotusViper">
+      <property name="title">
+       <string>Lotus</string>
+      </property>
+      <addaction name="actionViperLotusA"/>
+      <addaction name="actionViperLotusB"/>
+      <addaction name="actionViperLotusC"/>
+     </widget>
+     <widget class="QMenu" name="menuPearlViper">
+      <property name="title">
+       <string>Pearl</string>
+      </property>
+      <addaction name="actionViperPearlA"/>
+      <addaction name="actionViperPearlMid"/>
+      <addaction name="actionViperPearlB"/>
+     </widget>
+     <widget class="QMenu" name="menuSplitViper">
+      <property name="title">
+       <string>Split</string>
+      </property>
+      <addaction name="actionViperSplitA"/>
+      <addaction name="actionViperSplitMid"/>
+      <addaction name="actionViperSplitB"/>
+     </widget>
+     <widget class="QMenu" name="menuSunsetViper">
+      <property name="title">
+       <string>Sunset</string>
+      </property>
+      <addaction name="actionViperSunsetA"/>
+      <addaction name="actionViperSunsetMid"/>
+      <addaction name="actionViperSunsetB"/>
+     </widget>
+     <addaction name="menuAbyssViper"/>
+     <addaction name="menuAscentViper"/>
+     <addaction name="menuBindViper"/>
+     <addaction name="menuBreezeViper"/>
+     <addaction name="menuFractureViper"/>
+     <addaction name="menuHavenViper"/>
+     <addaction name="menuIceboxViper"/>
+     <addaction name="menuLotusViper"/>
+     <addaction name="menuPearlViper"/>
+     <addaction name="menuSplitViper"/>
+     <addaction name="menuSunsetViper"/>
+    </widget>
+    <widget class="QMenu" name="menuVyse">
+     <property name="title">
+      <string>Vyse</string>
+     </property>
+     <widget class="QMenu" name="menuAbyssVyse">
+      <property name="title">
+       <string>Abyss</string>
+      </property>
+      <addaction name="actionVyseAbyssA"/>
+      <addaction name="actionVyseAbyssMid"/>
+      <addaction name="actionVyseAbyssB"/>
+     </widget>
+     <widget class="QMenu" name="menuAscentVyse">
+      <property name="title">
+       <string>Ascent</string>
+      </property>
+      <addaction name="actionVyseAscentA"/>
+      <addaction name="actionVyseAscentMid"/>
+      <addaction name="actionVyseAscentB"/>
+     </widget>
+     <widget class="QMenu" name="menuBindVyse">
+      <property name="title">
+       <string>Bind</string>
+      </property>
+      <addaction name="actionVyseBindA"/>
+      <addaction name="actionVyseBindB"/>
+     </widget>
+     <widget class="QMenu" name="menuBreezeVyse">
+      <property name="title">
+       <string>Breeze</string>
+      </property>
+      <addaction name="actionVyseBreezeA"/>
+      <addaction name="actionVyseBreezeMid"/>
+      <addaction name="actionVyseBreezeB"/>
+     </widget>
+     <widget class="QMenu" name="menuFractureVyse">
+      <property name="title">
+       <string>Fracture</string>
+      </property>
+      <addaction name="actionVyseFractureA"/>
+      <addaction name="actionVyseFractureMid"/>
+      <addaction name="actionVyseFractureB"/>
+     </widget>
+     <widget class="QMenu" name="menuHavenVyse">
+      <property name="title">
+       <string>Haven</string>
+      </property>
+      <addaction name="actionVyseHavenA"/>
+      <addaction name="actionVyseHavenB"/>
+      <addaction name="actionVyseHavenC"/>
+     </widget>
+     <widget class="QMenu" name="menuIceboxVyse">
+      <property name="title">
+       <string>Icebox</string>
+      </property>
+      <addaction name="actionVyseIceboxA"/>
+      <addaction name="actionVyseIceboxMid"/>
+      <addaction name="actionVyseIceboxB"/>
+     </widget>
+     <widget class="QMenu" name="menuLotusVyse">
+      <property name="title">
+       <string>Lotus</string>
+      </property>
+      <addaction name="actionVyseLotusA"/>
+      <addaction name="actionVyseLotusB"/>
+      <addaction name="actionVyseLotusC"/>
+     </widget>
+     <widget class="QMenu" name="menuPearlVyse">
+      <property name="title">
+       <string>Pearl</string>
+      </property>
+      <addaction name="actionVysePearlA"/>
+      <addaction name="actionVysePearlMid"/>
+      <addaction name="actionVysePearlB"/>
+     </widget>
+     <widget class="QMenu" name="menuSplitVyse">
+      <property name="title">
+       <string>Split</string>
+      </property>
+      <addaction name="actionVyseSplitA"/>
+      <addaction name="actionVyseSplitMid"/>
+      <addaction name="actionVyseSplitB"/>
+     </widget>
+     <widget class="QMenu" name="menuSunsetVyse">
+      <property name="title">
+       <string>Sunset</string>
+      </property>
+      <addaction name="actionVyseSunsetA"/>
+      <addaction name="actionVyseSunsetMid"/>
+      <addaction name="actionVyseSunsetB"/>
+     </widget>
+     <addaction name="menuAbyssVyse"/>
+     <addaction name="menuAscentVyse"/>
+     <addaction name="menuBindVyse"/>
+     <addaction name="menuBreezeVyse"/>
+     <addaction name="menuFractureVyse"/>
+     <addaction name="menuHavenVyse"/>
+     <addaction name="menuIceboxVyse"/>
+     <addaction name="menuLotusVyse"/>
+     <addaction name="menuPearlVyse"/>
+     <addaction name="menuSplitVyse"/>
+     <addaction name="menuSunsetVyse"/>
+    </widget>
+    <addaction name="menuAstra"/>
+    <addaction name="menuBreach"/>
+    <addaction name="menuBrimstone"/>
+    <addaction name="menuChamber"/>
+    <addaction name="menuClove"/>
+    <addaction name="menuCypher"/>
+    <addaction name="menuDeadlock"/>
+    <addaction name="menuFade"/>
+    <addaction name="menuGekko"/>
+    <addaction name="menuHarbor"/>
+    <addaction name="menuIso"/>
+    <addaction name="menuJett"/>
+    <addaction name="menuKayo"/>
+    <addaction name="menuKilljoy"/>
+    <addaction name="menuNeon"/>
+    <addaction name="menuOmen"/>
+    <addaction name="menuPhoenix"/>
+    <addaction name="menuRaze"/>
+    <addaction name="menuReyna"/>
+    <addaction name="menuSage"/>
+    <addaction name="menuSkye"/>
+    <addaction name="menuSova"/>
+    <addaction name="menuTejo"/>
+    <addaction name="menuViper"/>
+    <addaction name="menuVyse"/>
     <addaction name="menuYoru"/>
    </widget>
    <widget class="QMenu" name="menuHome">
@@ -340,6 +2940,4011 @@
   <action name="actionYoruSunsetMid">
    <property name="text">
     <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionAstraAbyssA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionAstraAbyssB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionAstraAscentA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionAstraAscentB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionAstraBindA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionAstraBindB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionAstraBreezeA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionAstraBreezeB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionAstraFractureA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionAstraFractureB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionAstraHavenA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionAstraHavenB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionAstraHavenC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionAstraIceboxA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionAstraIceboxB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionAstraLotusA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionAstraLotusB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionAstraLotusC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionAstraPearlA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionAstraPearlB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionAstraSplitA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionAstraSplitB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionAstraSunsetA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionAstraSunsetB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionAstraAbyssMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionAstraAscentMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionAstraBreezeMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionAstraFractureMid">
+   <property name="text">
+    <string>Mid/Deffender spawn</string>
+   </property>
+  </action>
+  <action name="actionAstraIceboxMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionAstraPearlMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionAstraSplitMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionAstraSunsetMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionBreachAbyssA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionBreachAbyssB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionBreachAscentA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionBreachAscentB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionBreachBindA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionBreachBindB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionBreachBreezeA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionBreachBreezeB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionBreachFractureA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionBreachFractureB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionBreachHavenA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionBreachHavenB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionBreachHavenC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionBreachIceboxA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionBreachIceboxB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionBreachLotusA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionBreachLotusB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionBreachLotusC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionBreachPearlA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionBreachPearlB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionBreachSplitA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionBreachSplitB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionBreachSunsetA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionBreachSunsetB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionBreachAbyssMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionBreachAscentMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionBreachBreezeMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionBreachFractureMid">
+   <property name="text">
+    <string>Mid/Deffender spawn</string>
+   </property>
+  </action>
+  <action name="actionBreachIceboxMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionBreachPearlMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionBreachSplitMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionBreachSunsetMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneAbyssA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneAbyssB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneAscentA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneAscentB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneBindA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneBindB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneBreezeA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneBreezeB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneFractureA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneFractureB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneHavenA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneHavenB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneHavenC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneIceboxA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneIceboxB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneLotusA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneLotusB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneLotusC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionBrimstonePearlA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionBrimstonePearlB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneSplitA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneSplitB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneSunsetA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneSunsetB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneAbyssMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneAscentMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneBreezeMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneFractureMid">
+   <property name="text">
+    <string>Mid/Deffender spawn</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneIceboxMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionBrimstonePearlMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneSplitMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionBrimstoneSunsetMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionChamberAbyssA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionChamberAbyssB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionChamberAscentA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionChamberAscentB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionChamberBindA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionChamberBindB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionChamberBreezeA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionChamberBreezeB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionChamberFractureA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionChamberFractureB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionChamberHavenA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionChamberHavenB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionChamberHavenC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionChamberIceboxA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionChamberIceboxB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionChamberLotusA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionChamberLotusB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionChamberLotusC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionChamberPearlA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionChamberPearlB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionChamberSplitA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionChamberSplitB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionChamberSunsetA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionChamberSunsetB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionChamberAbyssMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionChamberAscentMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionChamberBreezeMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionChamberFractureMid">
+   <property name="text">
+    <string>Mid/Deffender spawn</string>
+   </property>
+  </action>
+  <action name="actionChamberIceboxMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionChamberPearlMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionChamberSplitMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionChamberSunsetMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionCloveAbyssA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionCloveAbyssB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionCloveAscentA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionCloveAscentB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionCloveBindA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionCloveBindB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionCloveBreezeA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionCloveBreezeB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionCloveFractureA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionCloveFractureB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionCloveHavenA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionCloveHavenB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionCloveHavenC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionCloveIceboxA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionCloveIceboxB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionCloveLotusA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionCloveLotusB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionCloveLotusC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionClovePearlA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionClovePearlB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionCloveSplitA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionCloveSplitB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionCloveSunsetA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionCloveSunsetB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionCloveAbyssMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionCloveAscentMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionCloveBreezeMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionCloveFractureMid">
+   <property name="text">
+    <string>Mid/Deffender spawn</string>
+   </property>
+  </action>
+  <action name="actionCloveIceboxMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionClovePearlMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionCloveSplitMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionCloveSunsetMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionCypherAbyssA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionCypherAbyssB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionCypherAscentA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionCypherAscentB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionCypherBindA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionCypherBindB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionCypherBreezeA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionCypherBreezeB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionCypherFractureA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionCypherFractureB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionCypherHavenA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionCypherHavenB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionCypherHavenC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionCypherIceboxA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionCypherIceboxB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionCypherLotusA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionCypherLotusB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionCypherLotusC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionCypherPearlA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionCypherPearlB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionCypherSplitA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionCypherSplitB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionCypherSunsetA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionCypherSunsetB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionCypherAbyssMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionCypherAscentMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionCypherBreezeMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionCypherFractureMid">
+   <property name="text">
+    <string>Mid/Deffender spawn</string>
+   </property>
+  </action>
+  <action name="actionCypherIceboxMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionCypherPearlMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionCypherSplitMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionCypherSunsetMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionDeadlockAbyssA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionDeadlockAbyssB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionDeadlockAscentA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionDeadlockAscentB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionDeadlockBindA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionDeadlockBindB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionDeadlockBreezeA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionDeadlockBreezeB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionDeadlockFractureA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionDeadlockFractureB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionDeadlockHavenA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionDeadlockHavenB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionDeadlockHavenC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionDeadlockIceboxA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionDeadlockIceboxB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionDeadlockLotusA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionDeadlockLotusB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionDeadlockLotusC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionDeadlockPearlA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionDeadlockPearlB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionDeadlockSplitA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionDeadlockSplitB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionDeadlockSunsetA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionDeadlockSunsetB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionDeadlockAbyssMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionDeadlockAscentMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionDeadlockBreezeMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionDeadlockFractureMid">
+   <property name="text">
+    <string>Mid/Deffender spawn</string>
+   </property>
+  </action>
+  <action name="actionDeadlockIceboxMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionDeadlockPearlMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionDeadlockSplitMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionDeadlockSunsetMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionFadeAbyssA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionFadeAbyssB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionFadeAscentA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionFadeAscentB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionFadeBindA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionFadeBindB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionFadeBreezeA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionFadeBreezeB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionFadeFractureA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionFadeFractureB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionFadeHavenA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionFadeHavenB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionFadeHavenC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionFadeIceboxA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionFadeIceboxB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionFadeLotusA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionFadeLotusB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionFadeLotusC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionFadePearlA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionFadePearlB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionFadeSplitA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionFadeSplitB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionFadeSunsetA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionFadeSunsetB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionFadeAbyssMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionFadeAscentMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionFadeBreezeMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionFadeFractureMid">
+   <property name="text">
+    <string>Mid/Deffender spawn</string>
+   </property>
+  </action>
+  <action name="actionFadeIceboxMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionFadePearlMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionFadeSplitMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionFadeSunsetMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionGekkoAbyssA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionGekkoAbyssB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionGekkoAscentA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionGekkoAscentB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionGekkoBindA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionGekkoBindB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionGekkoBreezeA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionGekkoBreezeB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionGekkoFractureA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionGekkoFractureB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionGekkoHavenA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionGekkoHavenB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionGekkoHavenC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionGekkoIceboxA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionGekkoIceboxB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionGekkoLotusA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionGekkoLotusB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionGekkoLotusC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionGekkoPearlA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionGekkoPearlB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionGekkoSplitA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionGekkoSplitB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionGekkoSunsetA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionGekkoSunsetB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionGekkoAbyssMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionGekkoAscentMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionGekkoBreezeMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionGekkoFractureMid">
+   <property name="text">
+    <string>Mid/Deffender spawn</string>
+   </property>
+  </action>
+  <action name="actionGekkoIceboxMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionGekkoPearlMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionGekkoSplitMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionGekkoSunsetMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionHarborAbyssA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionHarborAbyssB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionHarborAscentA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionHarborAscentB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionHarborBindA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionHarborBindB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionHarborBreezeA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionHarborBreezeB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionHarborFractureA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionHarborFractureB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionHarborHavenA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionHarborHavenB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionHarborHavenC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionHarborIceboxA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionHarborIceboxB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionHarborLotusA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionHarborLotusB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionHarborLotusC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionHarborPearlA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionHarborPearlB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionHarborSplitA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionHarborSplitB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionHarborSunsetA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionHarborSunsetB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionHarborAbyssMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionHarborAscentMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionHarborBreezeMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionHarborFractureMid">
+   <property name="text">
+    <string>Mid/Deffender spawn</string>
+   </property>
+  </action>
+  <action name="actionHarborIceboxMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionHarborPearlMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionHarborSplitMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionHarborSunsetMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionIsoAbyssA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionIsoAbyssB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionIsoAscentA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionIsoAscentB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionIsoBindA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionIsoBindB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionIsoBreezeA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionIsoBreezeB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionIsoFractureA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionIsoFractureB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionIsoHavenA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionIsoHavenB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionIsoHavenC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionIsoIceboxA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionIsoIceboxB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionIsoLotusA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionIsoLotusB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionIsoLotusC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionIsoPearlA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionIsoPearlB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionIsoSplitA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionIsoSplitB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionIsoSunsetA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionIsoSunsetB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionIsoAbyssMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionIsoAscentMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionIsoBreezeMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionIsoFractureMid">
+   <property name="text">
+    <string>Mid/Deffender spawn</string>
+   </property>
+  </action>
+  <action name="actionIsoIceboxMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionIsoPearlMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionIsoSplitMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionIsoSunsetMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionJettAbyssA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionJettAbyssB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionJettAscentA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionJettAscentB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionJettBindA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionJettBindB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionJettBreezeA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionJettBreezeB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionJettFractureA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionJettFractureB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionJettHavenA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionJettHavenB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionJettHavenC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionJettIceboxA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionJettIceboxB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionJettLotusA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionJettLotusB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionJettLotusC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionJettPearlA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionJettPearlB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionJettSplitA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionJettSplitB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionJettSunsetA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionJettSunsetB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionJettAbyssMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionJettAscentMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionJettBreezeMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionJettFractureMid">
+   <property name="text">
+    <string>Mid/Deffender spawn</string>
+   </property>
+  </action>
+  <action name="actionJettIceboxMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionJettPearlMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionJettSplitMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionJettSunsetMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionKayoAbyssA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionKayoAbyssB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionKayoAscentA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionKayoAscentB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionKayoBindA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionKayoBindB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionKayoBreezeA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionKayoBreezeB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionKayoFractureA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionKayoFractureB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionKayoHavenA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionKayoHavenB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionKayoHavenC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionKayoIceboxA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionKayoIceboxB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionKayoLotusA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionKayoLotusB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionKayoLotusC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionKayoPearlA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionKayoPearlB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionKayoSplitA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionKayoSplitB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionKayoSunsetA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionKayoSunsetB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionKayoAbyssMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionKayoAscentMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionKayoBreezeMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionKayoFractureMid">
+   <property name="text">
+    <string>Mid/Deffender spawn</string>
+   </property>
+  </action>
+  <action name="actionKayoIceboxMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionKayoPearlMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionKayoSplitMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionKayoSunsetMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionKilljoyAbyssA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionKilljoyAbyssB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionKilljoyAscentA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionKilljoyAscentB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionKilljoyBindA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionKilljoyBindB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionKilljoyBreezeA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionKilljoyBreezeB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionKilljoyFractureA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionKilljoyFractureB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionKilljoyHavenA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionKilljoyHavenB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionKilljoyHavenC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionKilljoyIceboxA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionKilljoyIceboxB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionKilljoyLotusA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionKilljoyLotusB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionKilljoyLotusC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionKilljoyPearlA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionKilljoyPearlB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionKilljoySplitA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionKilljoySplitB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionKilljoySunsetA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionKilljoySunsetB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionKilljoyAbyssMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionKilljoyAscentMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionKilljoyBreezeMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionKilljoyFractureMid">
+   <property name="text">
+    <string>Mid/Deffender spawn</string>
+   </property>
+  </action>
+  <action name="actionKilljoyIceboxMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionKilljoyPearlMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionKilljoySplitMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionKilljoySunsetMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionNeonAbyssA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionNeonAbyssB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionNeonAscentA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionNeonAscentB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionNeonBindA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionNeonBindB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionNeonBreezeA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionNeonBreezeB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionNeonFractureA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionNeonFractureB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionNeonHavenA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionNeonHavenB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionNeonHavenC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionNeonIceboxA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionNeonIceboxB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionNeonLotusA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionNeonLotusB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionNeonLotusC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionNeonPearlA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionNeonPearlB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionNeonSplitA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionNeonSplitB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionNeonSunsetA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionNeonSunsetB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionNeonAbyssMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionNeonAscentMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionNeonBreezeMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionNeonFractureMid">
+   <property name="text">
+    <string>Mid/Deffender spawn</string>
+   </property>
+  </action>
+  <action name="actionNeonIceboxMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionNeonPearlMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionNeonSplitMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionNeonSunsetMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionOmenAbyssA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionOmenAbyssB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionOmenAscentA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionOmenAscentB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionOmenBindA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionOmenBindB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionOmenBreezeA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionOmenBreezeB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionOmenFractureA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionOmenFractureB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionOmenHavenA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionOmenHavenB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionOmenHavenC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionOmenIceboxA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionOmenIceboxB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionOmenLotusA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionOmenLotusB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionOmenLotusC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionOmenPearlA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionOmenPearlB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionOmenSplitA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionOmenSplitB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionOmenSunsetA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionOmenSunsetB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionOmenAbyssMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionOmenAscentMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionOmenBreezeMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionOmenFractureMid">
+   <property name="text">
+    <string>Mid/Deffender spawn</string>
+   </property>
+  </action>
+  <action name="actionOmenIceboxMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionOmenPearlMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionOmenSplitMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionOmenSunsetMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionPhoenixAbyssA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionPhoenixAbyssB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionPhoenixAscentA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionPhoenixAscentB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionPhoenixBindA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionPhoenixBindB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionPhoenixBreezeA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionPhoenixBreezeB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionPhoenixFractureA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionPhoenixFractureB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionPhoenixHavenA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionPhoenixHavenB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionPhoenixHavenC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionPhoenixIceboxA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionPhoenixIceboxB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionPhoenixLotusA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionPhoenixLotusB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionPhoenixLotusC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionPhoenixPearlA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionPhoenixPearlB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionPhoenixSplitA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionPhoenixSplitB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionPhoenixSunsetA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionPhoenixSunsetB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionPhoenixAbyssMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionPhoenixAscentMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionPhoenixBreezeMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionPhoenixFractureMid">
+   <property name="text">
+    <string>Mid/Deffender spawn</string>
+   </property>
+  </action>
+  <action name="actionPhoenixIceboxMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionPhoenixPearlMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionPhoenixSplitMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionPhoenixSunsetMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionRazeAbyssA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionRazeAbyssB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionRazeAscentA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionRazeAscentB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionRazeBindA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionRazeBindB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionRazeBreezeA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionRazeBreezeB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionRazeFractureA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionRazeFractureB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionRazeHavenA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionRazeHavenB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionRazeHavenC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionRazeIceboxA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionRazeIceboxB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionRazeLotusA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionRazeLotusB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionRazeLotusC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionRazePearlA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionRazePearlB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionRazeSplitA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionRazeSplitB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionRazeSunsetA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionRazeSunsetB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionRazeAbyssMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionRazeAscentMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionRazeBreezeMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionRazeFractureMid">
+   <property name="text">
+    <string>Mid/Deffender spawn</string>
+   </property>
+  </action>
+  <action name="actionRazeIceboxMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionRazePearlMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionRazeSplitMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionRazeSunsetMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionReynaAbyssA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionReynaAbyssB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionReynaAscentA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionReynaAscentB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionReynaBindA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionReynaBindB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionReynaBreezeA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionReynaBreezeB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionReynaFractureA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionReynaFractureB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionReynaHavenA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionReynaHavenB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionReynaHavenC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionReynaIceboxA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionReynaIceboxB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionReynaLotusA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionReynaLotusB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionReynaLotusC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionReynaPearlA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionReynaPearlB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionReynaSplitA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionReynaSplitB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionReynaSunsetA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionReynaSunsetB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionReynaAbyssMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionReynaAscentMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionReynaBreezeMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionReynaFractureMid">
+   <property name="text">
+    <string>Mid/Deffender spawn</string>
+   </property>
+  </action>
+  <action name="actionReynaIceboxMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionReynaPearlMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionReynaSplitMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionReynaSunsetMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionSageAbyssA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSageAbyssB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSageAscentA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSageAscentB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSageBindA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSageBindB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSageBreezeA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSageBreezeB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSageFractureA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSageFractureB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSageHavenA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSageHavenB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSageHavenC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionSageIceboxA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSageIceboxB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSageLotusA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSageLotusB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSageLotusC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionSagePearlA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSagePearlB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSageSplitA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSageSplitB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSageSunsetA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSageSunsetB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSageAbyssMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionSageAscentMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionSageBreezeMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionSageFractureMid">
+   <property name="text">
+    <string>Mid/Deffender spawn</string>
+   </property>
+  </action>
+  <action name="actionSageIceboxMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionSagePearlMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionSageSplitMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionSageSunsetMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionSkyeAbyssA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSkyeAbyssB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSkyeAscentA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSkyeAscentB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSkyeBindA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSkyeBindB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSkyeBreezeA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSkyeBreezeB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSkyeFractureA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSkyeFractureB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSkyeHavenA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSkyeHavenB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSkyeHavenC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionSkyeIceboxA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSkyeIceboxB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSkyeLotusA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSkyeLotusB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSkyeLotusC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionSkyePearlA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSkyePearlB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSkyeSplitA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSkyeSplitB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSkyeSunsetA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSkyeSunsetB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSkyeAbyssMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionSkyeAscentMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionSkyeBreezeMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionSkyeFractureMid">
+   <property name="text">
+    <string>Mid/Deffender spawn</string>
+   </property>
+  </action>
+  <action name="actionSkyeIceboxMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionSkyePearlMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionSkyeSplitMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionSkyeSunsetMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionSovaAbyssA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSovaAbyssB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSovaAscentA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSovaAscentB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSovaBindA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSovaBindB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSovaBreezeA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSovaBreezeB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSovaFractureA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSovaFractureB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSovaHavenA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSovaHavenB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSovaHavenC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionSovaIceboxA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSovaIceboxB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSovaLotusA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSovaLotusB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSovaLotusC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionSovaPearlA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSovaPearlB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSovaSplitA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSovaSplitB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSovaSunsetA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionSovaSunsetB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionSovaAbyssMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionSovaAscentMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionSovaBreezeMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionSovaFractureMid">
+   <property name="text">
+    <string>Mid/Deffender spawn</string>
+   </property>
+  </action>
+  <action name="actionSovaIceboxMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionSovaPearlMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionSovaSplitMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionSovaSunsetMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionTejoAbyssA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionTejoAbyssB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionTejoAscentA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionTejoAscentB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionTejoBindA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionTejoBindB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionTejoBreezeA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionTejoBreezeB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionTejoFractureA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionTejoFractureB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionTejoHavenA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionTejoHavenB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionTejoHavenC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionTejoIceboxA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionTejoIceboxB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionTejoLotusA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionTejoLotusB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionTejoLotusC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionTejoPearlA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionTejoPearlB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionTejoSplitA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionTejoSplitB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionTejoSunsetA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionTejoSunsetB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionTejoAbyssMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionTejoAscentMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionTejoBreezeMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionTejoFractureMid">
+   <property name="text">
+    <string>Mid/Deffender spawn</string>
+   </property>
+  </action>
+  <action name="actionTejoIceboxMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionTejoPearlMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionTejoSplitMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionTejoSunsetMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionViperAbyssA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionViperAbyssB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionViperAscentA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionViperAscentB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionViperBindA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionViperBindB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionViperBreezeA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionViperBreezeB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionViperFractureA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionViperFractureB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionViperHavenA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionViperHavenB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionViperHavenC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionViperIceboxA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionViperIceboxB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionViperLotusA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionViperLotusB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionViperLotusC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionViperPearlA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionViperPearlB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionViperSplitA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionViperSplitB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionViperSunsetA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionViperSunsetB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionViperAbyssMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionViperAscentMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionViperBreezeMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionViperFractureMid">
+   <property name="text">
+    <string>Mid/Deffender spawn</string>
+   </property>
+  </action>
+  <action name="actionViperIceboxMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionViperPearlMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionViperSplitMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionViperSunsetMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionVyseAbyssA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionVyseAbyssB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionVyseAscentA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionVyseAscentB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionVyseBindA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionVyseBindB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionVyseBreezeA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionVyseBreezeB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionVyseFractureA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionVyseFractureB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionVyseHavenA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionVyseHavenB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionVyseHavenC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionVyseIceboxA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionVyseIceboxB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionVyseLotusA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionVyseLotusB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionVyseLotusC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionVysePearlA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionVysePearlB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionVyseSplitA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionVyseSplitB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionVyseSunsetA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionVyseSunsetB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionVyseAbyssMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionVyseAscentMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionVyseBreezeMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionVyseFractureMid">
+   <property name="text">
+    <string>Mid/Deffender spawn</string>
+   </property>
+  </action>
+  <action name="actionVyseIceboxMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionVysePearlMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionVyseSplitMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionVyseSunsetMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionYoruPearlB">
+   <property name="text">
+    <string>B site</string>
    </property>
   </action>
  </widget>
