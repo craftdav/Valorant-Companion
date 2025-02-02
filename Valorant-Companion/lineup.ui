@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QAbstractScrollArea::AdjustIgnored</enum>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>98</width>
+       <height>98</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAgents">
+    <property name="title">
+     <string>Agents</string>
+    </property>
+    <widget class="QMenu" name="menuYoru">
+     <property name="title">
+      <string>Yoru</string>
+     </property>
+     <widget class="QMenu" name="menuAbyss_2">
+      <property name="title">
+       <string>Abyss</string>
+      </property>
+      <addaction name="actionYoruAbyssA"/>
+      <addaction name="actionYoruAbyssMid"/>
+      <addaction name="actionYoruAbyssB"/>
+     </widget>
+     <widget class="QMenu" name="menuAscent_2">
+      <property name="title">
+       <string>Ascent</string>
+      </property>
+      <addaction name="actionYoruAscentA"/>
+      <addaction name="actionYoruAscentMid"/>
+      <addaction name="actionYoruAscentB"/>
+     </widget>
+     <widget class="QMenu" name="menuBind">
+      <property name="title">
+       <string>Bind</string>
+      </property>
+      <addaction name="actionYoruBindA"/>
+      <addaction name="actionYoruBindB"/>
+     </widget>
+     <widget class="QMenu" name="menuBreeze">
+      <property name="title">
+       <string>Breeze</string>
+      </property>
+      <addaction name="actionYoruBreezeA"/>
+      <addaction name="actionYoruBreezeMid"/>
+      <addaction name="actionYoruBreezeB"/>
+     </widget>
+     <widget class="QMenu" name="menuFracture">
+      <property name="title">
+       <string>Fracture</string>
+      </property>
+      <addaction name="actionYoruFractureA"/>
+      <addaction name="actionYoruFractureMid"/>
+      <addaction name="actionYoruFractureB"/>
+     </widget>
+     <widget class="QMenu" name="menuHaven">
+      <property name="title">
+       <string>Haven</string>
+      </property>
+      <addaction name="actionYoruHavenA"/>
+      <addaction name="actionYoruHavenB"/>
+      <addaction name="actionYoruHavenC"/>
+     </widget>
+     <widget class="QMenu" name="menuIcebox">
+      <property name="title">
+       <string>Icebox</string>
+      </property>
+      <addaction name="actionYoruIceboxA"/>
+      <addaction name="actionYoruIceboxMid"/>
+      <addaction name="actionYoruIceboxB"/>
+     </widget>
+     <widget class="QMenu" name="menuLotus">
+      <property name="title">
+       <string>Lotus</string>
+      </property>
+      <addaction name="actionYoruLotusA"/>
+      <addaction name="actionYoruLotusB"/>
+      <addaction name="actionYoruLotusC"/>
+     </widget>
+     <widget class="QMenu" name="menuPearl">
+      <property name="title">
+       <string>Pearl</string>
+      </property>
+      <addaction name="actionYoruPearlA"/>
+      <addaction name="actionYoruPearlMid"/>
+      <addaction name="actionBYoruPearlB"/>
+     </widget>
+     <widget class="QMenu" name="menuSplit">
+      <property name="title">
+       <string>Split</string>
+      </property>
+      <addaction name="actionYoruSplitA"/>
+      <addaction name="actionYoruSplitMid"/>
+      <addaction name="actionYoruSplitB"/>
+     </widget>
+     <widget class="QMenu" name="menuSunset">
+      <property name="title">
+       <string>Sunset</string>
+      </property>
+      <addaction name="actionYoruSunsetA"/>
+      <addaction name="actionYoruSunsetMid"/>
+      <addaction name="actionYoruSunsetB"/>
+     </widget>
+     <addaction name="menuAbyss_2"/>
+     <addaction name="menuAscent_2"/>
+     <addaction name="menuBind"/>
+     <addaction name="menuBreeze"/>
+     <addaction name="menuFracture"/>
+     <addaction name="menuHaven"/>
+     <addaction name="menuIcebox"/>
+     <addaction name="menuLotus"/>
+     <addaction name="menuPearl"/>
+     <addaction name="menuSplit"/>
+     <addaction name="menuSunset"/>
+    </widget>
+    <addaction name="menuYoru"/>
+   </widget>
+   <widget class="QMenu" name="menuHome">
+    <property name="title">
+     <string>Home</string>
+    </property>
+    <addaction name="actionHome"/>
+   </widget>
+   <addaction name="menuHome"/>
+   <addaction name="menuAgents"/>
+  </widget>
+  <action name="actionHome">
+   <property name="text">
+    <string>Home</string>
+   </property>
+  </action>
+  <action name="actionYoruAbyssA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionYoruAbyssB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionYoruAscentA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionYoruAscentB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionYoruBindA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionYoruBindB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionYoruBreezeA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionYoruBreezeB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionYoruFractureA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionYoruFractureB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionYoruHavenA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionYoruHavenB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionYoruHavenC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionYoruIceboxA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionYoruIceboxB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionYoruLotusA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionYoruLotusB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionYoruLotusC">
+   <property name="text">
+    <string>C site</string>
+   </property>
+  </action>
+  <action name="actionYoruPearlA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionBYoruPearlB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionYoruSplitA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionYoruSplitB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionYoruSunsetA">
+   <property name="text">
+    <string>A site</string>
+   </property>
+  </action>
+  <action name="actionYoruSunsetB">
+   <property name="text">
+    <string>B site</string>
+   </property>
+  </action>
+  <action name="actionYoruAbyssMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionYoruAscentMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionYoruBreezeMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionYoruFractureMid">
+   <property name="text">
+    <string>Mid/Deffender spawn</string>
+   </property>
+  </action>
+  <action name="actionYoruIceboxMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionYoruPearlMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionYoruSplitMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+  <action name="actionYoruSunsetMid">
+   <property name="text">
+    <string>Mid</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
