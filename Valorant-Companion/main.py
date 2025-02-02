@@ -18,7 +18,7 @@ class MyApp(QMainWindow):
 
 
         # Logo létrehozása és elhelyezése
-        self.logoPixmap = QPixmap("PySideLearn/VC-Logo.png").scaled(261, 261, Qt.KeepAspectRatio, Qt.SmoothTransformation)
+        self.logoPixmap = QPixmap("Valorant-Companion/VC-Logo.png").scaled(261, 261, Qt.KeepAspectRatio, Qt.SmoothTransformation)
         self.logo_label = QLabel(self)
         self.logo_label.setPixmap(self.logoPixmap)
         self.logo_label.setScaledContents(False)
@@ -69,14 +69,14 @@ class MyApp(QMainWindow):
         # Előző oldalak eltűntetése
         self.logo_label.hide()
 
-        path = "Valorant-Companion/Yoru/" + map + "/" + site + "/"
+        path = "Valorant-Companion/Lineups/Yoru/" + map + "/" + site + "/"
         lu_list = os.listdir(path) # line-up lista
 
         for i in range(0,len(lu_list),3):
             # Kép betöltése
             pixmapStart = QPixmap(os.path.join(path, lu_list[i]))
-            pixmapAim = QPixmap(os.path.join(path, lu_list[i-1]))
-            pixmapFinish = QPixmap(os.path.join(path, lu_list[i-2]))
+            pixmapAim = QPixmap(os.path.join(path, lu_list[i+1]))
+            pixmapFinish = QPixmap(os.path.join(path, lu_list[i+2]))
             if not pixmapStart.isNull() and not pixmapAim.isNull() and not pixmapFinish.isNull():
                 pixmapStart = pixmapStart.scaled(1024, 576, Qt.KeepAspectRatio, Qt.SmoothTransformation)
                 pixmapAim = pixmapAim.scaled(512, 288, Qt.KeepAspectRatio, Qt.SmoothTransformation)
