@@ -37,8 +37,8 @@ class MyApp(QMainWindow):
         self.ui.actionYoruBreezeA.triggered.connect(lambda: self.showLineups("Breeze","B"))
         self.ui.actionYoruFractureA.triggered.connect(lambda: self.showLineups("Fracture","A"))
         self.ui.actionYoruFractureB.triggered.connect(lambda: self.showLineups("Fracture","B"))
-        self.ui.actionYoruHaven.triggered.connect(lambda: self.showLineups("Heaven"))
-        self.ui.actionYoruPearl.triggered.connect(lambda: self.showLineups("Pearl"))
+        #self.ui.actionYoruHaven.triggered.connect(lambda: self.showLineups("Heaven"))
+        #self.ui.actionYoruPearl.triggered.connect(lambda: self.showLineups("Pearl"))
 
         # Home menüben home gomb lenyomásakor 
         self.ui.actionHome.triggered.connect(lambda: self.returnHome())
