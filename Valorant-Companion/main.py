@@ -54,9 +54,9 @@ class MyApp(QMainWindow):
 
         for i in range(0,len(lu_list),3):
             # Kép betöltése
-            pixmapStart = QPixmap(os.path.join(path, lu_list[i]))
-            pixmapAim = QPixmap(os.path.join(path, lu_list[i+1]))
-            pixmapFinish = QPixmap(os.path.join(path, lu_list[i+2]))
+            pixmapStart = QPixmap(os.path.join(path,( agent+"-"+ map+ "-"+ site+ "-"+ str(i+1)+ "-Aim.png")))
+            pixmapAim = QPixmap(os.path.join(path,( agent+"-"+ map+ "-"+ site+ "-"+ str(i+1)+ "-Start.png")))
+            pixmapFinish = QPixmap(os.path.join(path,( agent+"-"+ map+ "-"+ site+ "-"+ str(i+1)+ "-Finish.png")))
             if not pixmapStart.isNull() and not pixmapAim.isNull() and not pixmapFinish.isNull():
                 pixmapStart = pixmapStart.scaled(1024, 576, Qt.KeepAspectRatio, Qt.SmoothTransformation)
                 pixmapAim = pixmapAim.scaled(512, 288, Qt.KeepAspectRatio, Qt.SmoothTransformation)
