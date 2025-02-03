@@ -52,7 +52,7 @@ class MyApp(QMainWindow):
         path = "Valorant-Companion/Lineups/"+ agent +"/" + map + "/" + site + "/"
         lu_list = os.listdir(path) # line-up lista
 
-        for i in range(0,len(lu_list),3):
+        for i in range(len(lu_list)):
             # Kép betöltése
             pixmapStart = QPixmap(os.path.join(path,( agent+"-"+ map+ "-"+ site+ "-"+ str(i+1)+ "-Aim.png")))
             pixmapAim = QPixmap(os.path.join(path,( agent+"-"+ map+ "-"+ site+ "-"+ str(i+1)+ "-Start.png")))
@@ -90,7 +90,7 @@ class MyApp(QMainWindow):
                 # Hozzáadjuk a fő vertikális layout-hoz
                 self.scroll_layout.addLayout(row_layout)
                 
-                # if len(lu_list)<4:
+                # if len(lu_list)<6:
                 #     placeholder=QLabel(self)
                 #     placeholderPixmap = QPixmap("PySideLearn/Valorant-Companion/placeholder.png")
                 #     placeholderPixmap = placeholderPixmap.scaled(1024, 576, Qt.KeepAspectRatio, Qt.SmoothTransformation)
