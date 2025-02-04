@@ -1,8 +1,9 @@
 from PySide6.QtWidgets import QApplication, QMainWindow, QLabel, QVBoxLayout, QHBoxLayout, QWidget, QScrollArea
-from PySide6.QtGui import QPixmap, QGuiApplication
+from PySide6.QtGui import QPixmap, QGuiApplication, QFont
 from PySide6.QtCore import Qt
 import os
 from lineup_ui import Ui_MainWindow
+from lineup_loader import load_lineups
 from actions import setup_agent_action
 
 class MyApp(QMainWindow):
@@ -38,74 +39,20 @@ class MyApp(QMainWindow):
 
     def showLineups(self, agent, map, site):
 
-        # Scroll area reset
         self.scroll_area.show()
         self.scroll_widget = QWidget()
-        self.scroll_layout = QVBoxLayout(self.scroll_widget)  
+        
+        scroll_layout = load_lineups(agent, map, site, self)
+        if scroll_layout:
+            self.scroll_widget.setLayout(scroll_layout)
+        else:
+            self.scroll_widget.setLayout(QVBoxLayout())  # Üres ha nincs lineup
+        
         self.scroll_area.setWidget(self.scroll_widget)
         self.scroll_area.setWidgetResizable(True)
         self.setCentralWidget(self.scroll_area)
-        
-        # Előző oldalak eltűntetése
         self.logo_label.hide()
 
-        path = "Valorant-Companion/Lineups/"+ agent +"/" + map + "/" + site + "/"
-        lu_list = os.listdir(path) # line-up lista
-
-        for i in range(len(lu_list)):
-            # Kép betöltése
-            pixmapStart = QPixmap(os.path.join(path,( agent+"-"+ map+ "-"+ site+ "-"+ str(i+1)+ "-Aim.png")))
-            pixmapAim = QPixmap(os.path.join(path,( agent+"-"+ map+ "-"+ site+ "-"+ str(i+1)+ "-Start.png")))
-            pixmapFinish = QPixmap(os.path.join(path,( agent+"-"+ map+ "-"+ site+ "-"+ str(i+1)+ "-Finish.png")))
-            if not pixmapStart.isNull() and not pixmapAim.isNull() and not pixmapFinish.isNull():
-                pixmapStart = pixmapStart.scaled(1024, 576, Qt.KeepAspectRatio, Qt.SmoothTransformation)
-                pixmapAim = pixmapAim.scaled(512, 288, Qt.KeepAspectRatio, Qt.SmoothTransformation)
-                pixmapFinish = pixmapFinish.scaled(512, 288, Qt.KeepAspectRatio, Qt.SmoothTransformation)
-                
-                # Nagy QLabel a képhez
-                aim_label = QLabel(self)
-                aim_label.setPixmap(pixmapStart)
-                aim_label.setScaledContents(False)
-                aim_label.resize(pixmapStart.size())
-
-
-
-                # Kis QLabel a start és finish-hez
-                start_label = QLabel(self)
-                start_label.setPixmap(pixmapAim)
-                finish_label = QLabel(self)
-                finish_label.setPixmap(pixmapFinish)
-                # Sorba rendezés (QHBoxLayout)
-                row_layout = QHBoxLayout()
-                small_row =QVBoxLayout()
-
-                row_layout.addWidget(aim_label)  # Bal oldalon
-
-                small_row.addWidget(start_label)# Jobb oldalon
-                small_row.addWidget(finish_label)
-
-                row_layout.addLayout(small_row)
-
-
-                # Hozzáadjuk a fő vertikális layout-hoz
-                self.scroll_layout.addLayout(row_layout)
-                
-                # if len(lu_list)<6:
-                #     placeholder=QLabel(self)
-                #     placeholderPixmap = QPixmap("PySideLearn/Valorant-Companion/placeholder.png")
-                #     placeholderPixmap = placeholderPixmap.scaled(1024, 576, Qt.KeepAspectRatio, Qt.SmoothTransformation)
-                #     placeholder.setPixmap(placeholderPixmap)
-                #     row_layout.addWidget(placeholder)
-
-                #     miniplaceholder = QLabel(self)
-                #     placeholderLayout=QVBoxLayout()
-                #     placeholderPixmap = placeholderPixmap.scaled(512, 288, Qt.KeepAspectRatio, Qt.SmoothTransformation)
-                #     miniplaceholder.setPixmap(placeholderPixmap)
-                #     placeholderLayout.addWidget(miniplaceholder)
-                #     placeholderLayout.addWidget(miniplaceholder)
-                    
-                #     row_layout.addLayout(placeholderLayout)
-                #     self.scroll_layout.addWidget(row_layout)
 
     def returnHome(self):
         self.scroll_area.hide()
