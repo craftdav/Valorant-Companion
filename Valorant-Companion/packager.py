@@ -14,8 +14,14 @@ def get_resource_path(relative_path):
 path = get_resource_path("Valorant-Companion/")
 
 """
+To exe
 rmdir /s /q build
 rmdir /s /q dist
 del main.spec
 pyinstaller --onefile --distpath app --workpath app/temp main.py
+
+Delete exe
+rmdir /s /q build
+rmdir /s /q dist
+del main.spec
 """
