@@ -64,4 +64,29 @@ def load_lineups(agent, map, site, parent):
 
             scroll_layout.addLayout(row_layout)
 
+    # 🔹 Placeholder képek hozzáadása, ha kevesebb mint 4 lineup van
+    if len(lu_list) < 5:
+        placeholderPixmap = QPixmap("Valorant-Companion/placeholder.png").scaled(1024, 576, Qt.KeepAspectRatio, Qt.SmoothTransformation)
+        miniPlaceholder = placeholderPixmap.scaled(512, 288, Qt.KeepAspectRatio, Qt.SmoothTransformation)
+
+        while len(lu_list) < 5:
+            placeholder = QLabel(parent)
+            placeholder.setPixmap(placeholderPixmap)
+
+            miniplaceholder1 = QLabel(parent)
+            miniplaceholder2 = QLabel(parent)
+            miniplaceholder1.setPixmap(miniPlaceholder)
+            miniplaceholder2.setPixmap(miniPlaceholder)
+
+            row_layout = QHBoxLayout()
+            placeholderLayout = QVBoxLayout()
+
+            row_layout.addWidget(placeholder)  # Bal oldali nagy placeholder
+            placeholderLayout.addWidget(miniplaceholder1)
+            placeholderLayout.addWidget(miniplaceholder2)
+            row_layout.addLayout(placeholderLayout)
+
+            scroll_layout.addLayout(row_layout)
+            lu_list.append("placeholder")  # Elkerüljük a végtelen ciklust
+
     return scroll_layout
