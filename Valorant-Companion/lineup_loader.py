@@ -4,7 +4,7 @@ from PySide6.QtWidgets import QLabel, QVBoxLayout, QHBoxLayout, QWidget
 from PySide6.QtCore import Qt
 
 def load_lineups(agent, map, site, parent):
-    path = f"Valorant-Companion/Lineups/{agent}/{map}/{site}/"
+    path = f"Lineups/{agent}/{map}/{site}/"
     if not os.path.exists(path):
         return None
 
@@ -16,6 +16,15 @@ def load_lineups(agent, map, site, parent):
         pixmapStart = QPixmap(os.path.join(path, f"{agent}-{map}-{site}-{i+1}-Aim.png"))
         pixmapAim = QPixmap(os.path.join(path, f"{agent}-{map}-{site}-{i+1}-Start.png"))
         pixmapFinish = QPixmap(os.path.join(path, f"{agent}-{map}-{site}-{i+1}-Finish.png"))
+
+        # Ellenőrzés
+        if pixmapStart.isNull():
+            print(f"HIBA: Nem sikerült betölteni a képet: {os.path.join(path, f'{agent}-{map}-{site}-{i+1}-Aim.png')}")
+        if pixmapAim.isNull():
+            print(f"HIBA: Nem sikerült betölteni a képet: {os.path.join(path, f'{agent}-{map}-{site}-{i+1}-Start.png')}")
+        if pixmapFinish.isNull():
+            print(f"HIBA: Nem sikerült betölteni a képet: {os.path.join(path, f'{agent}-{map}-{site}-{i+1}-Finish.png')}")
+
 
         # Szöveg betöltése
         text = ""
@@ -66,27 +75,27 @@ def load_lineups(agent, map, site, parent):
 
     # 🔹 Placeholder képek hozzáadása, ha kevesebb mint 4 lineup van
     if len(lu_list) < 5:
-        placeholderPixmap = QPixmap("Valorant-Companion/placeholder.png").scaled(1024, 576, Qt.KeepAspectRatio, Qt.SmoothTransformation)
+        placeholderPixmap = QPixmap("placeholder.png").scaled(1024, 576, Qt.KeepAspectRatio, Qt.SmoothTransformation)
         miniPlaceholder = placeholderPixmap.scaled(512, 288, Qt.KeepAspectRatio, Qt.SmoothTransformation)
 
-        while len(lu_list) < 5:
-            placeholder = QLabel(parent)
-            placeholder.setPixmap(placeholderPixmap)
 
-            miniplaceholder1 = QLabel(parent)
-            miniplaceholder2 = QLabel(parent)
-            miniplaceholder1.setPixmap(miniPlaceholder)
-            miniplaceholder2.setPixmap(miniPlaceholder)
+        placeholder = QLabel(parent)
+        placeholder.setPixmap(placeholderPixmap)
 
-            row_layout = QHBoxLayout()
-            placeholderLayout = QVBoxLayout()
+        miniplaceholder1 = QLabel(parent)
+        miniplaceholder2 = QLabel(parent)
+        miniplaceholder1.setPixmap(miniPlaceholder)
+        miniplaceholder2.setPixmap(miniPlaceholder)
 
-            row_layout.addWidget(placeholder)  # Bal oldali nagy placeholder
-            placeholderLayout.addWidget(miniplaceholder1)
-            placeholderLayout.addWidget(miniplaceholder2)
-            row_layout.addLayout(placeholderLayout)
+        row_layout = QHBoxLayout()
+        placeholderLayout = QVBoxLayout()
 
-            scroll_layout.addLayout(row_layout)
-            lu_list.append("placeholder")  # Elkerüljük a végtelen ciklust
+        row_layout.addWidget(placeholder)  # Bal oldali nagy placeholder
+        placeholderLayout.addWidget(miniplaceholder1)
+        placeholderLayout.addWidget(miniplaceholder2)
+        row_layout.addLayout(placeholderLayout)
+
+        scroll_layout.addLayout(row_layout)
+        lu_list.append("placeholder")  # Elkerüljük a végtelen ciklust
 
     return scroll_layout
