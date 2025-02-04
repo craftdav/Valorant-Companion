@@ -19,7 +19,7 @@ class MyApp(QMainWindow):
         self.scroll_area.hide()
 
         # Logo létrehozása és elhelyezése
-        self.logoPixmap = QPixmap("VC-Logo.png").scaled(261, 261, Qt.KeepAspectRatio, Qt.SmoothTransformation)
+        self.logoPixmap = QPixmap("assets/VC-Logo.png").scaled(261, 261, Qt.KeepAspectRatio, Qt.SmoothTransformation)
         self.logo_label = QLabel(self)
         self.logo_label.setPixmap(self.logoPixmap)
         self.logo_label.setScaledContents(False)

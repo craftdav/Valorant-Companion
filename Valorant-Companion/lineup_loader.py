@@ -4,7 +4,7 @@ from PySide6.QtWidgets import QLabel, QVBoxLayout, QHBoxLayout, QWidget
 from PySide6.QtCore import Qt
 
 def load_lineups(agent, map, site, parent):
-    path = f"Lineups/{agent}/{map}/{site}/"
+    path = f"assets/Lineups/{agent}/{map}/{site}/"
     if not os.path.exists(path):
         return None
 
@@ -75,7 +75,7 @@ def load_lineups(agent, map, site, parent):
 
     # 🔹 Placeholder képek hozzáadása, ha kevesebb mint 4 lineup van
     if len(lu_list) < 5:
-        placeholderPixmap = QPixmap("placeholder.png").scaled(1024, 576, Qt.KeepAspectRatio, Qt.SmoothTransformation)
+        placeholderPixmap = QPixmap("assets/placeholder.png").scaled(1024, 576, Qt.KeepAspectRatio, Qt.SmoothTransformation)
         miniPlaceholder = placeholderPixmap.scaled(512, 288, Qt.KeepAspectRatio, Qt.SmoothTransformation)
 
 
