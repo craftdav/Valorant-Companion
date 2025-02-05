@@ -11,7 +11,7 @@ def load_lineups(agent, map, site, parent):
     lu_list = os.listdir(path)
     scroll_layout = QVBoxLayout()
 
-    for i in range(len(lu_list)):
+    for i in range(len(lu_list)//3):
         # Képek betöltése
         pixmapStart = QPixmap(os.path.join(path, f"{agent}-{map}-{site}-{i+1}-Aim.png"))
         pixmapAim = QPixmap(os.path.join(path, f"{agent}-{map}-{site}-{i+1}-Start.png"))
