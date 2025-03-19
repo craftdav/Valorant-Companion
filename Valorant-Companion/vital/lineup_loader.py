@@ -9,6 +9,8 @@ def load_lineups(agent, map, site, parent):
         return None
 
     lu_list = os.listdir(path)
+    loaded_pics=[]
+    loaded_pixmaps=[]
     scroll_layout = QVBoxLayout()
 
     for i in range(len(lu_list)//3):
@@ -43,12 +45,18 @@ def load_lineups(agent, map, site, parent):
             # 🔹 QLabel létrehozása a főablakhoz kapcsolva
             aim_label = QLabel(parent)
             aim_label.setPixmap(pixmapStart)
+            loaded_pics.append(aim_label)
+            loaded_pixmaps.append(pixmapAim)
 
             start_label = QLabel(parent)
             start_label.setPixmap(pixmapAim)
+            loaded_pics.append(start_label)
+            loaded_pixmaps.append(pixmapStart)
 
             finish_label = QLabel(parent)
             finish_label.setPixmap(pixmapFinish)
+            loaded_pics.append(finish_label)
+            loaded_pixmaps.append(pixmapFinish)
 
             # 🔹 Szöveg QLabel formázással
             textLabel = QLabel(parent)
@@ -98,4 +106,4 @@ def load_lineups(agent, map, site, parent):
         scroll_layout.addLayout(row_layout)
         lu_list.append("placeholder")  # Elkerüljük a végtelen ciklust
 
-    return scroll_layout
+    return [scroll_layout,loaded_pics,loaded_pixmaps]
