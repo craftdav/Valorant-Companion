@@ -12,6 +12,9 @@ class MyApp(QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
+        self.showedPics = []
+        self.showedPixmaps = []
+
         self.scroll_area = self.ui.scrollArea
         self.scroll_area.hide()
 
@@ -40,7 +43,11 @@ class MyApp(QMainWindow):
         self.scroll_area.show()
         self.scroll_widget = QWidget()
         
-        scroll_layout = load_lineups(agent, map, site, self)
+        loaded = load_lineups(agent, map, site, self)
+        scroll_layout = loaded[0]
+        self.showedPics = loaded[1]
+        self.showedPixmaps = loaded[2]
+
         self.scroll_widget.setLayout(scroll_layout if scroll_layout else QVBoxLayout())
         
         self.scroll_area.setWidget(self.scroll_widget)
@@ -57,12 +64,13 @@ class MyApp(QMainWindow):
     
     def resizeEvent(self, event):
         new_size = min(self.width(), self.height()) * 0.5
-        scaled_pixmap = self.logoPixmap.scaled(new_size, new_size, Qt.KeepAspectRatio, Qt.SmoothTransformation)
-        
-        self.logo_label.setPixmap(scaled_pixmap)
-        self.logo_label.resize(scaled_pixmap.size())
-        self.logo_label.move((self.width() - self.logo_label.width()) // 2, 
-                             (self.height() - self.logo_label.height()) // 2)
+        for i in range(len(self.showedPics)):
+            scaled_pixmap = self.showedPixmaps[i].scaled(new_size, new_size, Qt.KeepAspectRatio, Qt.SmoothTransformation)
+            
+            self.showedPics[i].setPixmap(scaled_pixmap)
+            self.showedPics[i].resize(scaled_pixmap.size())
+            self.showedPics[i].move((self.width() - self.showedPics[i].width()) // 2, 
+                                (self.height() - self.showedPics[i].height()) // 2)
         
         super().resizeEvent(event)
 
