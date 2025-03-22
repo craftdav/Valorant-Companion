@@ -3,9 +3,11 @@ from PySide6.QtGui import QPixmap, QFont
 from PySide6.QtWidgets import QLabel, QVBoxLayout, QHBoxLayout, QWidget
 from PySide6.QtCore import Qt
 import base64
+from io import BytesIO
+from PIL import Image
 
 def encoded_load_lineups(agent, map, site, parent):
-    path = f"assets/Lineups/{agent}/{map}/{site}/"
+    path = f"assets/encoded/{agent}/{map}/{site}/"
     if not os.path.exists(path):
         return None
 
@@ -18,9 +20,11 @@ def encoded_load_lineups(agent, map, site, parent):
         # Képek betöltése
         
         with open(os.path.join(path, f"{agent}-{map}-{site}-{i+1}-Aim.png.txt"), "r") as f:
-            encoded_data = f.read()
-        decodedStart=base64.b64decode()
-        pixmapStart = QPixmap(decodedStart)
+            encodedStart=f.readlines()
+            with open("output.jpg", "wb") as output_file:
+                output_file.write(base64.b64decode(encodedStart))
+            
+        pixmapStart = QPixmap()
         pixmapAim = QPixmap(os.path.join(path, f"{agent}-{map}-{site}-{i+1}-Start.png"))
         pixmapFinish = QPixmap(os.path.join(path, f"{agent}-{map}-{site}-{i+1}-Finish.png"))
 
