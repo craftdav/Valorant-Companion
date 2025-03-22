@@ -15,7 +15,7 @@ def get_resource_path(relative_path):
 
 # Példa a helyes elérési út használatára
 path = get_resource_path("")
-ipath = os.path.join(path, "assets", "Lineups")
+print(path)
 
 
 
@@ -26,7 +26,7 @@ To exe
 rmdir /s /q build
 rmdir /s /q dist
 del main.spec
-pyinstaller --onefile --distpath app --workpath app/temp main.py
+pyinstaller --onefile --noconsole --distpath app --workpath app/temp main.py
 
 Delete exe
 rmdir /s /q build
