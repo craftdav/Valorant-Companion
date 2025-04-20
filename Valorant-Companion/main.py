@@ -36,7 +36,7 @@ class MyApp(QMainWindow):
         self.countLabel = QLabel(self)
         self.counted_lineups=lineupCounter()
         self.countLabel.setText(str(self.counted_lineups))
-        self.countLabel.move(0,0)
+        self.countLabel.move(0,21)
         self.countFont = QFont()
         self.countFont.setBold(True)
         self.countFont.setPointSize(100)
