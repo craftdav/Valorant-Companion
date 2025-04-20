@@ -1,9 +1,11 @@
 from PySide6.QtWidgets import QApplication, QMainWindow, QLabel, QVBoxLayout, QWidget, QScrollArea
-from PySide6.QtGui import QPixmap, QGuiApplication
+from PySide6.QtGui import QPixmap, QGuiApplication, QFont
 from PySide6.QtCore import Qt
 from vital.lineup_ui import Ui_MainWindow
 from vital.lineup_loader import load_lineups
 from vital.actions import setup_agent_action
+from vital.lineup_loader import lineupCounter
+import os
 
 class MyApp(QMainWindow):
     def __init__(self):
@@ -17,10 +19,29 @@ class MyApp(QMainWindow):
         self.scroll_area = self.ui.scrollArea
         self.scroll_area.hide()
 
-        self.logoPixmap = QPixmap("assets/VC-Logo.png")
+        current_file_path = os.path.abspath(__file__)
+        per=len(current_file_path)-1
+        while True:
+            if current_file_path[per] !="\\":
+                per-=1
+            else:
+                break
+        current_file_path=current_file_path[0:per]
+
+        self.logoPixmap = QPixmap(f"{current_file_path}/assets/VC-Logo.png")
         self.logo_label = QLabel(self)
         self.logo_label.setPixmap(self.logoPixmap)
         self.logo_label.move(0, 21)
+
+        self.countLabel = QLabel(self)
+        self.counted_lineups=lineupCounter()
+        self.countLabel.setText(str(self.counted_lineups))
+        self.countLabel.move(0,0)
+        self.countFont = QFont()
+        self.countFont.setBold(True)
+        self.countFont.setPointSize(100)
+        self.countLabel.setFont(self.countFont)
+        self.countLabel.setFixedSize(150,150)
 
         self.setup_actions()
         self.ui.actionHome.triggered.connect(self.returnHome)
@@ -52,10 +73,12 @@ class MyApp(QMainWindow):
         self.scroll_area.setWidget(self.scroll_widget)
         self.setCentralWidget(self.scroll_area)
         self.logo_label.hide()
+        self.countLabel.show()
 
     def returnHome(self):
         self.scroll_area.hide()
         self.logo_label.show()
+        self.countLabel.show()
         self.setCentralWidget(self.logo_label)
     
     def setup_actions(self):
