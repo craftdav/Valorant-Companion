@@ -107,3 +107,38 @@ def load_lineups(agent, map, site, parent):
         lu_list.append("placeholder")  # Elkerüljük a végtelen ciklust
 
     return [scroll_layout,loaded_pics,loaded_pixmaps]
+
+def lineupCounter():
+    # Ez a path pontosan ugyanaz, mint a load_lineups()-ban
+    lineups_path = "assets/Lineups"
+
+    if not os.path.exists(lineups_path):
+        print(f"Nem található a Lineups mappa: {os.path.abspath(lineups_path)}")
+        return 0
+
+    counted = 0
+    agents = os.listdir(lineups_path)
+    
+    for agent in agents:
+        agent_path = os.path.join(lineups_path, agent)
+        if not os.path.isdir(agent_path):
+            continue
+        places = os.listdir(agent_path)
+
+        for place in places:
+            place_path = os.path.join(agent_path, place)
+            if not os.path.isdir(place_path):
+                continue
+            sites = os.listdir(place_path)
+
+            for site in sites:
+                site_path = os.path.join(place_path, site)
+                if not os.path.isdir(site_path):
+                    continue
+                pics = os.listdir(site_path)
+
+                for pic in pics:
+                    if pic.lower().endswith("g"):
+                        counted += 1
+
+    return counted // 3
