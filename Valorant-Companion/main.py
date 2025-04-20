@@ -1,7 +1,6 @@
 from PySide6.QtWidgets import QApplication, QMainWindow, QLabel, QVBoxLayout, QWidget, QScrollArea
 from PySide6.QtGui import QPixmap, QGuiApplication
 from PySide6.QtCore import Qt
-import os
 from vital.lineup_ui import Ui_MainWindow
 from vital.lineup_loader import load_lineups
 from vital.actions import setup_agent_action
