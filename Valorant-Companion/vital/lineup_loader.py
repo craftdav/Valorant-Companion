@@ -14,6 +14,10 @@ def load_lineups(agent, map, site, monitor_size, parent):
     
         trap_list = os.listdir(trap_path)
         trap_list.sort(key=len)
+        trap_notes=0
+        for i in range(len(trap_list)):
+            if trap_list[i].lower().endswith(".txt"):
+                trap_notes+=1
 
     lu_list = os.listdir(path)
     loaded_pics=[]
@@ -95,7 +99,7 @@ def load_lineups(agent, map, site, monitor_size, parent):
 
             scroll_layout.addLayout(row_layout) 
 
-    for i in range(len(trap_list)):
+    for i in range(len(trap_list)-trap_notes):
         pixmapTrap = QPixmap(os.path.join(trap_path, f"{agent}-{map}-{site}-{i+1}-Trap.png"))
 
         if pixmapTrap.isNull():
@@ -190,12 +194,25 @@ def lineupCounter():
                 site_path = os.path.join(place_path, site)
                 if not os.path.isdir(site_path):
                     continue
-                pics = os.listdir(site_path)
+                if "Trap" in os.listdir(site_path):
+                    types= os.listdir(site_path)
+                    for type in types:
+                        type_path=os.path.join(site_path,type)
+                        pics = os.listdir(type_path)
+                        for pic in pics:
+                            if pic.lower().endswith("p.png"):
+                                counted += 3
+                            elif pic.lower().endswith(".png"):
+                                counted +=  1
 
-                for pic in pics:
-                    if pic.lower().endswith("p.png"):
-                        counted += 3
-                    elif pic.lower().endswith(".png"):
-                        counted +=  1
+                else:
+                    pics = os.listdir(site_path)
+                    
+
+                    for pic in pics:
+                        if pic.lower().endswith("p.png"):
+                            counted += 3
+                        elif pic.lower().endswith(".png"):
+                            counted +=  1
 
     return counted // 3

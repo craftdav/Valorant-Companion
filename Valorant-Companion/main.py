@@ -33,7 +33,8 @@ class MyApp(QMainWindow):
                 break
         current_file_path=current_file_path[0:per]
 
-        self.logoPixmap = QPixmap(f"{current_file_path}/assets/VC-Logo.png")
+        logo_path = "assets/VC-Logo.png"
+        self.logoPixmap = QPixmap(logo_path)
         self.logo_label = QLabel(self)
         self.logo_label.setPixmap(self.logoPixmap)
         self.logo_label.move(0, 21)
