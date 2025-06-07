@@ -6,12 +6,17 @@ from vital.lineup_loader import load_lineups
 from vital.actions import setup_agent_action
 from vital.lineup_loader import lineupCounter
 import os
-
 class MyApp(QMainWindow):
     def __init__(self):
         super().__init__()
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
+
+        screen = QGuiApplication.primaryScreen()  # az elsődleges képernyő
+        geometry = screen.geometry()              # QRect objektum: x, y, width, height
+
+        self.width = geometry.width()
+        self.height = geometry.height()
 
         self.showedPics = []
         self.showedPixmaps = []
@@ -63,7 +68,7 @@ class MyApp(QMainWindow):
         self.scroll_area.show()
         self.scroll_widget = QWidget()
         
-        loaded = load_lineups(agent, map, site, self)
+        loaded = load_lineups(agent, map, site, [self.width,self.height], self)
         scroll_layout = loaded[0]
         self.showedPics = loaded[1]
         self.showedPixmaps = loaded[2]
@@ -84,18 +89,6 @@ class MyApp(QMainWindow):
     def setup_actions(self):
         setup_agent_action(self.ui, self.showLineups)
     
-    def resizeEvent(self, event):
-        new_size = min(self.width(), self.height()) * 0.5
-        for i in range(len(self.showedPics)):
-            scaled_pixmap = self.showedPixmaps[i].scaled(new_size, new_size, Qt.KeepAspectRatio, Qt.SmoothTransformation)
-            
-            self.showedPics[i].setPixmap(scaled_pixmap)
-            self.showedPics[i].resize(scaled_pixmap.size())
-            self.showedPics[i].move((self.width() - self.showedPics[i].width()) // 2, 
-                                (self.height() - self.showedPics[i].height()) // 2)
-        
-        super().resizeEvent(event)
-
 app = QApplication([])
 screen_geometry = QGuiApplication.primaryScreen().geometry()
 window = MyApp()

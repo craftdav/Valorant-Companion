@@ -3,18 +3,28 @@ from PySide6.QtGui import QPixmap, QFont
 from PySide6.QtWidgets import QLabel, QVBoxLayout, QHBoxLayout, QWidget
 from PySide6.QtCore import Qt
 
-def load_lineups(agent, map, site, parent):
+def load_lineups(agent, map, site, monitor_size, parent):
     path = f"assets/Lineups/{agent}/{map}/{site}/"
     if not os.path.exists(path):
         return None
+    trap_list=[]
+    if os.path.exists(os.path.join(path,"Trap")):
+        trap_path=os.path.join(path,"Trap")
+        path=os.path.join(path,"Lineup")
+    
+        trap_list = os.listdir(trap_path)
+        trap_list.sort(key=len)
 
     lu_list = os.listdir(path)
     loaded_pics=[]
     loaded_pixmaps=[]
     scroll_layout = QVBoxLayout()
-
+        
     for i in range(len(lu_list)//3):
+
         # Képek betöltése
+
+
         pixmapStart = QPixmap(os.path.join(path, f"{agent}-{map}-{site}-{i+1}-Aim.png"))
         pixmapAim = QPixmap(os.path.join(path, f"{agent}-{map}-{site}-{i+1}-Start.png"))
         pixmapFinish = QPixmap(os.path.join(path, f"{agent}-{map}-{site}-{i+1}-Finish.png"))
@@ -28,6 +38,10 @@ def load_lineups(agent, map, site, parent):
             print(f"HIBA: Nem sikerült betölteni a képet: {os.path.join(path, f'{agent}-{map}-{site}-{i+1}-Finish.png')}")
 
 
+
+       
+
+
         # Szöveg betöltése
         text = ""
         try:
@@ -38,9 +52,9 @@ def load_lineups(agent, map, site, parent):
 
         if not pixmapStart.isNull() and not pixmapAim.isNull() and not pixmapFinish.isNull():
             # 🔹 Képminőség javítása
-            pixmapStart = pixmapStart.scaled(1024, 576, Qt.KeepAspectRatio, Qt.SmoothTransformation)
-            pixmapAim = pixmapAim.scaled(512, 288, Qt.KeepAspectRatio, Qt.SmoothTransformation)
-            pixmapFinish = pixmapFinish.scaled(512, 288, Qt.KeepAspectRatio, Qt.SmoothTransformation)
+            pixmapStart = pixmapStart.scaled(monitor_size[0]//2, monitor_size[1]//2, Qt.KeepAspectRatio, Qt.SmoothTransformation)
+            pixmapAim = pixmapAim.scaled(monitor_size[0]//4, monitor_size[1]//4, Qt.KeepAspectRatio, Qt.SmoothTransformation)
+            pixmapFinish = pixmapFinish.scaled(monitor_size[0]//4, monitor_size[1]//4, Qt.KeepAspectRatio, Qt.SmoothTransformation)
 
             # 🔹 QLabel létrehozása a főablakhoz kapcsolva
             aim_label = QLabel(parent)
@@ -79,10 +93,51 @@ def load_lineups(agent, map, site, parent):
 
             row_layout.addWidget(textLabel)  # 🔹 Szöveg hozzáadása
 
-            scroll_layout.addLayout(row_layout)
+            scroll_layout.addLayout(row_layout) 
+
+    for i in range(len(trap_list)):
+        pixmapTrap = QPixmap(os.path.join(trap_path, f"{agent}-{map}-{site}-{i+1}-Trap.png"))
+
+        if pixmapTrap.isNull():
+            print(f"HIBA: Nem sikerült betölteni a képet: {os.path.join(trap_path, f'{agent}-{map}-{site}-{i+1}-Trap.png')}")
+        
+        text = ""
+        try:
+            with open(os.path.join(trap_path, f"{agent}-{map}-{site}-{i+1}-TrapText.txt"), encoding="utf-8") as f:
+                text = "".join(f.readlines())
+        except FileNotFoundError:
+            pass
+
+        if not pixmapTrap.isNull():
+            # 🔹 Képminőség javítása
+            pixmapTrap = pixmapTrap.scaled(monitor_size[0], monitor_size[1], Qt.KeepAspectRatio, Qt.SmoothTransformation)
+
+
+            # 🔹 QLabel létrehozása a főablakhoz kapcsolva
+            trap_label = QLabel(parent)
+            trap_label.setPixmap(pixmapTrap)
+            loaded_pics.append(trap_label)
+            loaded_pixmaps.append(pixmapTrap)
+
+
+            # 🔹 Szöveg QLabel formázással
+            textLabel = QLabel(parent)
+            textLabel.setText(text)
+            textFont = QFont()
+            textFont.setBold(True)
+            textFont.setPointSize(26)
+            textLabel.setFont(textFont)
+            textLabel.setWordWrap(True)  # 🔹 Több soros szöveg megjelenítés
+            textLabel.setMaximumWidth(450)
+
+            row_layout = QHBoxLayout()
+            row_layout.addWidget(trap_label)
+            row_layout.addWidget(textLabel)
+
+            scroll_layout.addLayout(row_layout) 
 
     # 🔹 Placeholder képek hozzáadása, ha kevesebb mint 4 lineup van
-    if len(lu_list) < 5:
+    if len(lu_list) < 5 and len(trap_list)==0:
         placeholderPixmap = QPixmap("assets/placeholder.png").scaled(1024, 576, Qt.KeepAspectRatio, Qt.SmoothTransformation)
         miniPlaceholder = placeholderPixmap.scaled(512, 288, Qt.KeepAspectRatio, Qt.SmoothTransformation)
 
@@ -138,7 +193,9 @@ def lineupCounter():
                 pics = os.listdir(site_path)
 
                 for pic in pics:
-                    if pic.lower().endswith("g"):
-                        counted += 1
+                    if pic.lower().endswith("p.png"):
+                        counted += 3
+                    elif pic.lower().endswith(".png"):
+                        counted +=  1
 
     return counted // 3
